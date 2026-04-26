@@ -1,0 +1,1 @@
+.rtl_screen -top_module {top} -include_path {<C:/Users/happuking/Desktop/FPGA-CPU>} -design_files {<C:/Users/happuking/Desktop/FPGA-CPU/source/CPU.v|work><C:/Users/happuking/Desktop/FPGA-CPU/source/wb_ram.v|work><C:/Users/happuking/Desktop/FPGA-CPU/source/VexRiscv.v|work><C:/Users/happuking/Desktop/FPGA-CPU/source/uart_wb.v|work>}

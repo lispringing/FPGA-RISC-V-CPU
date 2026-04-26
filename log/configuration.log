@@ -1,0 +1,314 @@
+[Info] [2026-4-25 17:48:32] /***************************Start Configuration***************************/
+[Info] [2026-4-25 17:48:32] Path: D:/PDS_2022.1/bin
+[Info] [2026-4-25 17:48:32] Version: 99559
+[Info] [2026-4-25 17:48:33] Current Path: C:/Users/happuking/Desktop/FPGA-CPU
+[Info] [2026-4-25 17:48:33] PDS Dir Path: C:/Users/happuking/Desktop/FPGA-CPU
+[Info] [2026-4-25 17:48:35] Configuration is not connect with server. connect first then scan chain.
+[Debug] [2026-4-25 17:48:35] Client Local host name:??????????
+[Debug] [2026-4-25 17:48:35] Client Local Address:192.168.43.90
+[Debug] [2026-4-25 17:48:35] Server Address:127.0.0.1, Port:65420
+[Info] [2026-4-25 17:48:36] Connect OK, Server: 127.0.0.1  Port: 65420
+[Debug] [2026-4-25 17:48:36] Finish.
+[Info] [2026-4-25 17:48:36] Connect server succeeded
+[Debug] [2026-4-25 17:48:36] Send RPC:1
+[Debug] [2026-4-25 17:48:36] Send cmd [check version information:40005] OK
+[Debug] [2026-4-25 17:48:36] Send RPC:2
+[Debug] [2026-4-25 17:48:36] Send cmd [get_cable_paras:40011] OK
+[Debug] [2026-4-25 17:48:36] Begin to send initialize chain cmd...
+[Debug] [2026-4-25 17:48:36] Send RPC:3
+[Debug] [2026-4-25 17:48:36] Send cmd [Open config cable:20001] OK
+[Debug] [2026-4-25 17:48:36] End to send initialize chain cmd.
+[Debug] [2026-4-25 17:48:36] COMMAND[check version information] execute successfully, takes 0.5 secs.
+[Debug] [2026-4-25 17:48:38] COMMAND[get_cable_paras] execute successfully, takes 1.3 secs.
+[Error] [2026-4-25 17:48:38] fail to exec Open config cable cmd...
+[Debug] [2026-4-25 17:48:42] Begin to send initialize chain cmd...
+[Debug] [2026-4-25 17:48:42] Send RPC:4
+[Debug] [2026-4-25 17:48:42] Send cmd [Open config cable:20001] OK
+[Debug] [2026-4-25 17:48:42] End to send initialize chain cmd.
+[Error] [2026-4-25 17:48:42] fail to exec Open config cable cmd...
+[Debug] [2026-4-25 17:48:49] Begin to send initialize chain cmd...
+[Debug] [2026-4-25 17:48:49] Send RPC:5
+[Debug] [2026-4-25 17:48:49] Send cmd [Open config cable:20001] OK
+[Debug] [2026-4-25 17:48:49] End to send initialize chain cmd.
+[Error] [2026-4-25 17:48:49] fail to exec Open config cable cmd...
+[Debug] [2026-4-25 17:48:52] Begin to send initialize chain cmd...
+[Debug] [2026-4-25 17:48:52] Send RPC:6
+[Debug] [2026-4-25 17:48:52] Send cmd [Open config cable:20001] OK
+[Debug] [2026-4-25 17:48:52] End to send initialize chain cmd.
+[Error] [2026-4-25 17:48:52] fail to exec Open config cable cmd...
+[Debug] [2026-4-25 17:49:32] Begin to send initialize chain cmd...
+[Debug] [2026-4-25 17:49:32] Send RPC:7
+[Debug] [2026-4-25 17:49:32] Send cmd [Open config cable:20001] OK
+[Debug] [2026-4-25 17:49:32] End to send initialize chain cmd.
+[Error] [2026-4-25 17:49:32] fail to exec Open config cable cmd...
+[Debug] [2026-4-25 17:49:33] Begin to send initialize chain cmd...
+[Debug] [2026-4-25 17:49:33] Send RPC:8
+[Debug] [2026-4-25 17:49:33] Send cmd [Open config cable:20001] OK
+[Debug] [2026-4-25 17:49:33] End to send initialize chain cmd.
+[Error] [2026-4-25 17:49:33] fail to exec Open config cable cmd...
+[Debug] [2026-4-25 17:49:35] Begin to send initialize chain cmd...
+[Debug] [2026-4-25 17:49:35] Send RPC:9
+[Debug] [2026-4-25 17:49:35] Send cmd [Open config cable:20001] OK
+[Debug] [2026-4-25 17:49:35] End to send initialize chain cmd.
+[Error] [2026-4-25 17:49:35] fail to exec Open config cable cmd...
+[Info] [2026-4-25 17:49:36] /***************************End Configration***************************/
+[Info] [2026-4-25 17:49:37] /***************************Start Configuration***************************/
+[Info] [2026-4-25 17:49:37] Path: D:/PDS_2022.1/bin
+[Info] [2026-4-25 17:49:37] Version: 99559
+[Info] [2026-4-25 17:49:38] Current Path: C:/Users/happuking/Desktop/FPGA-CPU
+[Info] [2026-4-25 17:49:38] PDS Dir Path: C:/Users/happuking/Desktop/FPGA-CPU
+[Info] [2026-4-25 17:49:41] Configuration is not connect with server. connect first then scan chain.
+[Debug] [2026-4-25 17:49:41] Client Local host name:??????????
+[Debug] [2026-4-25 17:49:41] Client Local Address:192.168.43.90
+[Debug] [2026-4-25 17:49:41] Server Address:127.0.0.1, Port:65420
+[Info] [2026-4-25 17:49:41] Connect OK, Server: 127.0.0.1  Port: 65420
+[Debug] [2026-4-25 17:49:41] Finish.
+[Info] [2026-4-25 17:49:41] Connect server succeeded
+[Debug] [2026-4-25 17:49:41] Send RPC:1
+[Debug] [2026-4-25 17:49:41] Send cmd [check version information:40005] OK
+[Debug] [2026-4-25 17:49:42] Send RPC:2
+[Debug] [2026-4-25 17:49:42] Send cmd [get_cable_paras:40011] OK
+[Debug] [2026-4-25 17:49:42] Begin to send initialize chain cmd...
+[Debug] [2026-4-25 17:49:42] Send RPC:3
+[Debug] [2026-4-25 17:49:42] Send cmd [Open config cable:20001] OK
+[Debug] [2026-4-25 17:49:42] End to send initialize chain cmd.
+[Debug] [2026-4-25 17:49:42] COMMAND[check version information] execute successfully, takes 0.5 secs.
+[Debug] [2026-4-25 17:49:43] COMMAND[get_cable_paras] execute successfully, takes 1.4 secs.
+[Error] [2026-4-25 17:49:43] fail to exec Open config cable cmd...
+[Debug] [2026-4-25 17:50:47] Begin to send initialize chain cmd...
+[Debug] [2026-4-25 17:50:47] Send RPC:4
+[Debug] [2026-4-25 17:50:47] Send cmd [Open config cable:20001] OK
+[Debug] [2026-4-25 17:50:47] End to send initialize chain cmd.
+[Error] [2026-4-25 17:50:47] fail to exec Open config cable cmd...
+[Debug] [2026-4-25 17:50:47] Begin to send initialize chain cmd...
+[Debug] [2026-4-25 17:50:47] Send RPC:5
+[Debug] [2026-4-25 17:50:47] Send cmd [Open config cable:20001] OK
+[Debug] [2026-4-25 17:50:47] End to send initialize chain cmd.
+[Error] [2026-4-25 17:50:47] fail to exec Open config cable cmd...
+[Debug] [2026-4-25 17:50:47] Begin to send initialize chain cmd...
+[Debug] [2026-4-25 17:50:47] Send RPC:6
+[Debug] [2026-4-25 17:50:47] Send cmd [Open config cable:20001] OK
+[Debug] [2026-4-25 17:50:47] End to send initialize chain cmd.
+[Error] [2026-4-25 17:50:47] fail to exec Open config cable cmd...
+[Debug] [2026-4-25 17:50:48] Begin to send initialize chain cmd...
+[Debug] [2026-4-25 17:50:48] Send RPC:7
+[Debug] [2026-4-25 17:50:48] Send cmd [Open config cable:20001] OK
+[Debug] [2026-4-25 17:50:48] End to send initialize chain cmd.
+[Error] [2026-4-25 17:50:48] fail to exec Open config cable cmd...
+[Info] [2026-4-25 17:50:48] /***************************End Configration***************************/
+[Info] [2026-4-25 17:50:49] /***************************Start Configuration***************************/
+[Info] [2026-4-25 17:50:49] Path: D:/PDS_2022.1/bin
+[Info] [2026-4-25 17:50:49] Version: 99559
+[Info] [2026-4-25 17:50:50] Current Path: C:/Users/happuking/Desktop/FPGA-CPU
+[Info] [2026-4-25 17:50:50] PDS Dir Path: C:/Users/happuking/Desktop/FPGA-CPU
+[Info] [2026-4-25 17:50:52] Configuration is not connect with server. connect first then scan chain.
+[Debug] [2026-4-25 17:50:52] Client Local host name:??????????
+[Debug] [2026-4-25 17:50:52] Client Local Address:192.168.43.90
+[Debug] [2026-4-25 17:50:52] Server Address:127.0.0.1, Port:65420
+[Info] [2026-4-25 17:50:53] Connect OK, Server: 127.0.0.1  Port: 65420
+[Debug] [2026-4-25 17:50:53] Finish.
+[Info] [2026-4-25 17:50:53] Connect server succeeded
+[Debug] [2026-4-25 17:50:53] Send RPC:1
+[Debug] [2026-4-25 17:50:53] Send cmd [check version information:40005] OK
+[Debug] [2026-4-25 17:50:53] Send RPC:2
+[Debug] [2026-4-25 17:50:53] Send cmd [get_cable_paras:40011] OK
+[Debug] [2026-4-25 17:50:53] Begin to send initialize chain cmd...
+[Debug] [2026-4-25 17:50:53] Send RPC:3
+[Debug] [2026-4-25 17:50:53] Send cmd [Open config cable:20001] OK
+[Debug] [2026-4-25 17:50:53] End to send initialize chain cmd.
+[Debug] [2026-4-25 17:50:53] COMMAND[check version information] execute successfully, takes 0.6 secs.
+[Debug] [2026-4-25 17:50:55] COMMAND[get_cable_paras] execute successfully, takes 1.4 secs.
+[Error] [2026-4-25 17:50:55] fail to exec Open config cable cmd...
+[Info] [2026-4-25 17:56:56] /***************************End Configration***************************/
+[Info] [2026-4-26 09:55:15] /***************************Start Configuration***************************/
+[Info] [2026-4-26 09:55:15] Path: D:/PDS_2022.1/bin
+[Info] [2026-4-26 09:55:15] Version: 99559
+[Info] [2026-4-26 09:55:16] Current Path: C:/Users/happuking/Desktop/FPGA-CPU
+[Info] [2026-4-26 09:55:16] PDS Dir Path: C:/Users/happuking/Desktop/FPGA-CPU
+[Info] [2026-4-26 09:55:20] Configuration is not connect with server. connect first then scan chain.
+[Debug] [2026-4-26 09:55:20] Client Local host name:??????????
+[Debug] [2026-4-26 09:55:20] Client Local Address:192.168.43.90
+[Debug] [2026-4-26 09:55:20] Server Address:127.0.0.1, Port:65420
+[Info] [2026-4-26 09:55:20] Connect OK, Server: 127.0.0.1  Port: 65420
+[Debug] [2026-4-26 09:55:20] Finish.
+[Info] [2026-4-26 09:55:20] Connect server succeeded
+[Debug] [2026-4-26 09:55:20] Send RPC:1
+[Debug] [2026-4-26 09:55:20] Send cmd [check version information:40005] OK
+[Debug] [2026-4-26 09:55:21] Send RPC:2
+[Debug] [2026-4-26 09:55:21] Send cmd [get_cable_paras:40011] OK
+[Debug] [2026-4-26 09:55:21] Begin to send initialize chain cmd...
+[Debug] [2026-4-26 09:55:21] Send RPC:3
+[Debug] [2026-4-26 09:55:21] Send cmd [Open config cable:20001] OK
+[Debug] [2026-4-26 09:55:21] End to send initialize chain cmd.
+[Debug] [2026-4-26 09:55:21] COMMAND[check version information] execute successfully, takes 0.2 secs.
+[Debug] [2026-4-26 09:55:22] COMMAND[get_cable_paras] execute successfully, takes 0.9 secs.
+[Debug] [2026-4-26 09:55:22] begin the exec of open cable cmd...
+[Debug] [2026-4-26 09:55:22] Begin to deal with chain from server...
+[Debug] [2026-4-26 09:55:22] Begin to set user chain...
+[Debug] [2026-4-26 09:55:22] End to set user chain.
+[Debug] [2026-4-26 09:55:22] Begin to update graphic item and tree item ...
+[Debug] [2026-4-26 09:55:22] End to update graphic item and tree item ...
+[Info] [2026-4-26 09:55:23] set OpenLastPath: C:/Users/happuking/Desktop/FPGA-CPU/generate_bitstream/led_top.sbit
+[Debug] [2026-4-26 09:55:23] begin to get device info from CFG file...
+[Debug] [2026-4-26 09:55:23] end to get device info from CFG file...
+[Debug] [2026-4-26 09:55:23] Begin to update graphic item and tree item ...
+[Debug] [2026-4-26 09:55:23] End to update graphic item and tree item ...
+[Debug] [2026-4-26 09:55:23] End to deal wiht chain from server.
+[Debug] [2026-4-26 09:55:23] end the exec of open cable cmd.
+[Debug] [2026-4-26 09:55:23] COMMAND[Open config cable] execute successfully, takes 2.8 secs.
+[Debug] [2026-4-26 09:55:24] Begin to send programming cmd...
+[Debug] [2026-4-26 09:55:24] Send RPC:4
+[Debug] [2026-4-26 09:55:24] Begin to send program data.
+[Debug] [2026-4-26 09:55:24] End to send program data.
+[Debug] [2026-4-26 09:55:24] Send cmd [Program:20002] OK
+[Debug] [2026-4-26 09:55:25] The value of Progress is 6
+[Debug] [2026-4-26 09:55:25] The value of Progress is 10
+[Debug] [2026-4-26 09:55:25] The value of Progress is 15
+[Debug] [2026-4-26 09:55:25] The value of Progress is 20
+[Debug] [2026-4-26 09:55:25] The value of Progress is 25
+[Debug] [2026-4-26 09:55:25] The value of Progress is 30
+[Debug] [2026-4-26 09:55:25] The value of Progress is 35
+[Debug] [2026-4-26 09:55:25] The value of Progress is 40
+[Debug] [2026-4-26 09:55:25] The value of Progress is 45
+[Debug] [2026-4-26 09:55:25] The value of Progress is 50
+[Debug] [2026-4-26 09:55:26] The value of Progress is 55
+[Debug] [2026-4-26 09:55:26] The value of Progress is 60
+[Debug] [2026-4-26 09:55:26] The value of Progress is 65
+[Debug] [2026-4-26 09:55:26] The value of Progress is 70
+[Debug] [2026-4-26 09:55:26] The value of Progress is 75
+[Debug] [2026-4-26 09:55:26] The value of Progress is 80
+[Debug] [2026-4-26 09:55:26] The value of Progress is 85
+[Debug] [2026-4-26 09:55:26] The value of Progress is 90
+[Debug] [2026-4-26 09:55:26] The value of Progress is 95
+[Debug] [2026-4-26 09:55:26] The value of Progress is 100
+[Debug] [2026-4-26 09:55:27] COMMAND[Program] execute successfully, takes 2.2 secs.
+[Debug] [2026-4-26 09:55:27] End to send programming cmd.
+[Info] [2026-4-26 09:55:38] /***************************End Configration***************************/
+[Info] [2026-4-26 10:10:10] /***************************Start Configuration***************************/
+[Info] [2026-4-26 10:10:10] Path: D:/PDS_2022.1/bin
+[Info] [2026-4-26 10:10:10] Version: 99559
+[Info] [2026-4-26 10:10:11] Current Path: C:/Users/happuking/Desktop/FPGA-CPU
+[Info] [2026-4-26 10:10:11] PDS Dir Path: C:/Users/happuking/Desktop/FPGA-CPU
+[Info] [2026-4-26 10:10:13] Configuration is not connect with server. connect first then scan chain.
+[Debug] [2026-4-26 10:10:13] Client Local host name:??????????
+[Debug] [2026-4-26 10:10:13] Client Local Address:192.168.43.90
+[Debug] [2026-4-26 10:10:13] Server Address:127.0.0.1, Port:65420
+[Info] [2026-4-26 10:10:14] Connect OK, Server: 127.0.0.1  Port: 65420
+[Debug] [2026-4-26 10:10:14] Finish.
+[Info] [2026-4-26 10:10:14] Connect server succeeded
+[Debug] [2026-4-26 10:10:14] Send RPC:1
+[Debug] [2026-4-26 10:10:14] Send cmd [check version information:40005] OK
+[Debug] [2026-4-26 10:10:14] Send RPC:2
+[Debug] [2026-4-26 10:10:14] Send cmd [get_cable_paras:40011] OK
+[Debug] [2026-4-26 10:10:14] Begin to send initialize chain cmd...
+[Debug] [2026-4-26 10:10:14] Send RPC:3
+[Debug] [2026-4-26 10:10:14] Send cmd [Open config cable:20001] OK
+[Debug] [2026-4-26 10:10:14] End to send initialize chain cmd.
+[Debug] [2026-4-26 10:10:14] COMMAND[check version information] execute successfully, takes 0.1 secs.
+[Debug] [2026-4-26 10:10:15] COMMAND[get_cable_paras] execute successfully, takes 0.9 secs.
+[Debug] [2026-4-26 10:10:15] begin the exec of open cable cmd...
+[Debug] [2026-4-26 10:10:15] Begin to deal with chain from server...
+[Debug] [2026-4-26 10:10:15] Begin to set user chain...
+[Debug] [2026-4-26 10:10:15] End to set user chain.
+[Debug] [2026-4-26 10:10:15] Begin to update graphic item and tree item ...
+[Debug] [2026-4-26 10:10:15] End to update graphic item and tree item ...
+[Info] [2026-4-26 10:10:17] set OpenLastPath: C:/Users/happuking/Desktop/FPGA-CPU/generate_bitstream/top.sbit
+[Debug] [2026-4-26 10:10:17] begin to get device info from CFG file...
+[Debug] [2026-4-26 10:10:17] end to get device info from CFG file...
+[Debug] [2026-4-26 10:10:17] Begin to update graphic item and tree item ...
+[Debug] [2026-4-26 10:10:17] End to update graphic item and tree item ...
+[Debug] [2026-4-26 10:10:17] End to deal wiht chain from server.
+[Debug] [2026-4-26 10:10:17] end the exec of open cable cmd.
+[Debug] [2026-4-26 10:10:17] COMMAND[Open config cable] execute successfully, takes 2.6 secs.
+[Debug] [2026-4-26 10:10:18] Begin to send programming cmd...
+[Debug] [2026-4-26 10:10:18] Send RPC:4
+[Debug] [2026-4-26 10:10:18] Begin to send program data.
+[Debug] [2026-4-26 10:10:18] End to send program data.
+[Debug] [2026-4-26 10:10:18] Send cmd [Program:20002] OK
+[Debug] [2026-4-26 10:10:18] The value of Progress is 6
+[Debug] [2026-4-26 10:10:18] The value of Progress is 10
+[Debug] [2026-4-26 10:10:18] The value of Progress is 15
+[Debug] [2026-4-26 10:10:18] The value of Progress is 20
+[Debug] [2026-4-26 10:10:18] The value of Progress is 25
+[Debug] [2026-4-26 10:10:18] The value of Progress is 30
+[Debug] [2026-4-26 10:10:18] The value of Progress is 35
+[Debug] [2026-4-26 10:10:18] The value of Progress is 40
+[Debug] [2026-4-26 10:10:19] The value of Progress is 45
+[Debug] [2026-4-26 10:10:19] The value of Progress is 50
+[Debug] [2026-4-26 10:10:19] The value of Progress is 55
+[Debug] [2026-4-26 10:10:19] The value of Progress is 60
+[Debug] [2026-4-26 10:10:19] The value of Progress is 65
+[Debug] [2026-4-26 10:10:19] The value of Progress is 70
+[Debug] [2026-4-26 10:10:19] The value of Progress is 75
+[Debug] [2026-4-26 10:10:19] The value of Progress is 80
+[Debug] [2026-4-26 10:10:19] The value of Progress is 85
+[Debug] [2026-4-26 10:10:19] The value of Progress is 90
+[Debug] [2026-4-26 10:10:19] The value of Progress is 95
+[Debug] [2026-4-26 10:10:20] The value of Progress is 100
+[Debug] [2026-4-26 10:10:20] COMMAND[Program] execute successfully, takes 2.0 secs.
+[Debug] [2026-4-26 10:10:20] End to send programming cmd.
+[Info] [2026-4-26 10:10:22] /***************************End Configration***************************/
+[Info] [2026-4-26 10:15:12] /***************************Start Configuration***************************/
+[Info] [2026-4-26 10:15:12] Path: D:/PDS_2022.1/bin
+[Info] [2026-4-26 10:15:12] Version: 99559
+[Info] [2026-4-26 10:15:13] Current Path: C:/Users/happuking/Desktop/FPGA-CPU
+[Info] [2026-4-26 10:15:13] PDS Dir Path: C:/Users/happuking/Desktop/FPGA-CPU
+[Info] [2026-4-26 10:15:15] Configuration is not connect with server. connect first then scan chain.
+[Debug] [2026-4-26 10:15:15] Client Local host name:??????????
+[Debug] [2026-4-26 10:15:15] Client Local Address:192.168.43.90
+[Debug] [2026-4-26 10:15:15] Server Address:127.0.0.1, Port:65420
+[Info] [2026-4-26 10:15:16] Connect OK, Server: 127.0.0.1  Port: 65420
+[Debug] [2026-4-26 10:15:16] Finish.
+[Info] [2026-4-26 10:15:16] Connect server succeeded
+[Debug] [2026-4-26 10:15:16] Send RPC:1
+[Debug] [2026-4-26 10:15:16] Send cmd [check version information:40005] OK
+[Debug] [2026-4-26 10:15:16] Send RPC:2
+[Debug] [2026-4-26 10:15:16] Send cmd [get_cable_paras:40011] OK
+[Debug] [2026-4-26 10:15:16] Begin to send initialize chain cmd...
+[Debug] [2026-4-26 10:15:16] Send RPC:3
+[Debug] [2026-4-26 10:15:16] Send cmd [Open config cable:20001] OK
+[Debug] [2026-4-26 10:15:16] End to send initialize chain cmd.
+[Debug] [2026-4-26 10:15:16] COMMAND[check version information] execute successfully, takes 0.1 secs.
+[Debug] [2026-4-26 10:15:17] COMMAND[get_cable_paras] execute successfully, takes 1.0 secs.
+[Debug] [2026-4-26 10:15:17] begin the exec of open cable cmd...
+[Debug] [2026-4-26 10:15:17] Begin to deal with chain from server...
+[Debug] [2026-4-26 10:15:17] Begin to set user chain...
+[Debug] [2026-4-26 10:15:17] End to set user chain.
+[Debug] [2026-4-26 10:15:17] Begin to update graphic item and tree item ...
+[Debug] [2026-4-26 10:15:17] End to update graphic item and tree item ...
+[Info] [2026-4-26 10:15:19] set OpenLastPath: C:/Users/happuking/Desktop/FPGA-CPU/generate_bitstream/top.sbit
+[Debug] [2026-4-26 10:15:19] begin to get device info from CFG file...
+[Debug] [2026-4-26 10:15:19] end to get device info from CFG file...
+[Debug] [2026-4-26 10:15:19] Begin to update graphic item and tree item ...
+[Debug] [2026-4-26 10:15:19] End to update graphic item and tree item ...
+[Debug] [2026-4-26 10:15:19] End to deal wiht chain from server.
+[Debug] [2026-4-26 10:15:19] end the exec of open cable cmd.
+[Debug] [2026-4-26 10:15:19] COMMAND[Open config cable] execute successfully, takes 3.0 secs.
+[Debug] [2026-4-26 10:15:20] Begin to send programming cmd...
+[Debug] [2026-4-26 10:15:20] Send RPC:4
+[Debug] [2026-4-26 10:15:20] Begin to send program data.
+[Debug] [2026-4-26 10:15:20] End to send program data.
+[Debug] [2026-4-26 10:15:20] Send cmd [Program:20002] OK
+[Debug] [2026-4-26 10:15:20] The value of Progress is 6
+[Debug] [2026-4-26 10:15:20] The value of Progress is 10
+[Debug] [2026-4-26 10:15:20] The value of Progress is 15
+[Debug] [2026-4-26 10:15:20] The value of Progress is 20
+[Debug] [2026-4-26 10:15:20] The value of Progress is 25
+[Debug] [2026-4-26 10:15:20] The value of Progress is 30
+[Debug] [2026-4-26 10:15:21] The value of Progress is 35
+[Debug] [2026-4-26 10:15:21] The value of Progress is 40
+[Debug] [2026-4-26 10:15:21] The value of Progress is 45
+[Debug] [2026-4-26 10:15:21] The value of Progress is 50
+[Debug] [2026-4-26 10:15:21] The value of Progress is 55
+[Debug] [2026-4-26 10:15:21] The value of Progress is 60
+[Debug] [2026-4-26 10:15:21] The value of Progress is 65
+[Debug] [2026-4-26 10:15:21] The value of Progress is 70
+[Debug] [2026-4-26 10:15:21] The value of Progress is 75
+[Debug] [2026-4-26 10:15:21] The value of Progress is 80
+[Debug] [2026-4-26 10:15:21] The value of Progress is 85
+[Debug] [2026-4-26 10:15:22] The value of Progress is 90
+[Debug] [2026-4-26 10:15:22] The value of Progress is 95
+[Debug] [2026-4-26 10:15:22] The value of Progress is 100
+[Debug] [2026-4-26 10:15:22] COMMAND[Program] execute successfully, takes 2.0 secs.
+[Debug] [2026-4-26 10:15:22] End to send programming cmd.
+[Info] [2026-4-26 10:15:28] /***************************End Configration***************************/
