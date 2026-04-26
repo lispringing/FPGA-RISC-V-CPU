@@ -1,4 +1,4 @@
-##### Written on 2026/04/26 10:14:33 ###############################
+##### Written on 2026/04/26 17:41:47 ###############################
 
 
 ##### INFO ##################################################
@@ -10,7 +10,7 @@ Top Module :
 	top
 
 Constraint File(s) : 
-	C:/Users/happuking/Desktop/FPGA-CPU/FPGA-CPU.fdc
+	C:/Users/happuking/Desktop/FPGA-RISC-V-CPU/FPGA-CPU.fdc
 
 ##### SUMMARY ######################################################
 
@@ -24,7 +24,7 @@ Inapplicable constraints(except overwritten constraints):
 
 define_attribute {p:rst_n} {PAP_IO_LOC} {K18}
 
-	C: ConstraintEditor-2002: [C:/Users/happuking/Desktop/FPGA-CPU/FPGA-CPU.fdc(line number: 14)] | Port rst_n has been placed at location K18, whose type is share pin.
+	C: ConstraintEditor-2002: [C:/Users/happuking/Desktop/FPGA-RISC-V-CPU/FPGA-CPU.fdc(line number: 14)] | Port rst_n has been placed at location K18, whose type is share pin.
 
 
 Constraints with issues:

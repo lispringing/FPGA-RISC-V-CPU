@@ -2798,48 +2798,48 @@
         </row>
         <row>
             <data>Use of CLMA</data>
-            <data>9</data>
+            <data>16</data>
             <data>6450</data>
             <data>1</data>
             <row>
                 <data>  FF</data>
-                <data>26</data>
+                <data>46</data>
                 <data>38700</data>
                 <data>1</data>
             </row>
             <row>
                 <data>  LUT</data>
-                <data>30</data>
+                <data>51</data>
                 <data>25800</data>
                 <data>1</data>
             </row>
             <row>
                 <data>  LUT-FF pairs</data>
-                <data>2</data>
+                <data>12</data>
                 <data>25800</data>
                 <data>1</data>
             </row>
         </row>
         <row>
             <data>Use of CLMS</data>
-            <data>4</data>
+            <data>11</data>
             <data>4250</data>
             <data>1</data>
             <row>
                 <data>  FF</data>
-                <data>13</data>
+                <data>35</data>
                 <data>25500</data>
                 <data>1</data>
             </row>
             <row>
                 <data>  LUT</data>
-                <data>13</data>
+                <data>42</data>
                 <data>17000</data>
                 <data>1</data>
             </row>
             <row>
                 <data>  LUT-FF pairs</data>
-                <data>5</data>
+                <data>11</data>
                 <data>17000</data>
                 <data>1</data>
             </row>
@@ -2882,7 +2882,7 @@
         </row>
         <row>
             <data>Use of HARD0N1</data>
-            <data>8</data>
+            <data>14</data>
             <data>6672</data>
             <data>1</data>
         </row>
@@ -3091,8 +3091,8 @@
         </column_headers>
         <row>
             <data>top</data>
-            <data>43</data>
-            <data>39</data>
+            <data>93</data>
+            <data>81</data>
             <data>0</data>
             <data>0</data>
             <data>0</data>
@@ -3116,9 +3116,63 @@
             <data>0</data>
             <data>1</data>
             <row>
+                <data>u_cpu</data>
+                <data>38</data>
+                <data>33</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+            </row>
+            <row>
+                <data>u_ram</data>
+                <data>1</data>
+                <data>1</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+            </row>
+            <row>
                 <data>u_uart</data>
-                <data>18</data>
-                <data>14</data>
+                <data>28</data>
+                <data>22</data>
                 <data>0</data>
                 <data>0</data>
                 <data>0</data>
@@ -3155,10 +3209,10 @@
             <data>RAM(GB)</data>
         </column_headers>
         <row>
-            <data>0h:0m:13s</data>
-            <data>0h:0m:13s</data>
-            <data>0h:0m:16s</data>
-            <data>729</data>
+            <data>0h:0m:15s</data>
+            <data>0h:0m:15s</data>
+            <data>0h:0m:18s</data>
+            <data>735</data>
             <data>WINDOWS 10 x86_64</data>
             <data>AMD Ryzen 9 7940HX with Radeon Graphics</data>
             <data>15</data>
@@ -3167,7 +3221,7 @@
     <table id="pnr_messages" title="Place &amp; Route Messages" column_number="1">
         <column_headers/>
         <row>
-            <data message="6">ConstraintEditor-2002: [C:/Users/happuking/Desktop/FPGA-CPU/device_map/led_top.pcf(line number: 6)] | Port rst_n has been placed at location K18, whose type is share pin.</data>
+            <data message="6">ConstraintEditor-2002: [C:/Users/happuking/Desktop/FPGA-RISC-V-CPU/device_map/led_top.pcf(line number: 6)] | Port rst_n has been placed at location K18, whose type is share pin.</data>
         </row>
         <row>
             <data message="4">Column Clock Check open.</data>
@@ -3452,7 +3506,7 @@
                     <data>clkbufg_0/gopclkbufg</data>
                     <data>USCM_84_108</data>
                     <data>ntclkbufg_0</data>
-                    <data>23</data>
+                    <data>55</data>
                     <data>0</data>
                     <data>clk_50m_ibuf/opit_1</data>
                     <data>INCK</data>

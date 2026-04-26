@@ -38,8 +38,8 @@
         </column_headers>
         <row>
             <data>top</data>
-            <data>43</data>
-            <data>39</data>
+            <data>93</data>
+            <data>81</data>
             <data>0</data>
             <data>0</data>
             <data>0</data>
@@ -57,7 +57,7 @@
             <data>0</data>
             <data>0</data>
             <data>0</data>
-            <data>32</data>
+            <data>54</data>
             <data>0</data>
             <data>0</data>
             <data>0</data>
@@ -71,9 +71,79 @@
             <data>0</data>
             <data>0</data>
             <row>
+                <data>u_cpu</data>
+                <data>38</data>
+                <data>33</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>21</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+            </row>
+            <row>
+                <data>u_ram</data>
+                <data>0</data>
+                <data>1</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+                <data>0</data>
+            </row>
+            <row>
                 <data>u_uart</data>
-                <data>18</data>
-                <data>14</data>
+                <data>28</data>
+                <data>22</data>
                 <data>0</data>
                 <data>0</data>
                 <data>0</data>
@@ -91,7 +161,7 @@
                 <data>0</data>
                 <data>0</data>
                 <data>0</data>
-                <data>8</data>
+                <data>9</data>
                 <data>0</data>
                 <data>0</data>
                 <data>0</data>
@@ -316,7 +386,7 @@
             <data>1.000MHz</data>
             <data>0.000</data>
             <data>500.000</data>
-            <data>39</data>
+            <data>81</data>
             <data>0</data>
             <data/>
             <data>{ clk_50m }</data>
@@ -331,9 +401,9 @@
         </column_headers>
         <row>
             <data>top|clk_50m</data>
-            <data>256.608MHz</data>
+            <data>188.573MHz</data>
             <data>1.000MHz</data>
-            <data>996.103</data>
+            <data>994.697</data>
         </row>
     </table>
     <table id="synthesize_report_clock_interaction" title="Clock Interaction" column_number="12">
@@ -356,20 +426,20 @@
             <data>top|clk_50m</data>
             <data>YES</data>
             <data>Timed</data>
-            <data>996.103</data>
+            <data>994.697</data>
             <data>0.000</data>
             <data>0</data>
-            <data>44</data>
-            <data>1.029</data>
+            <data>131</data>
+            <data>0.740</data>
             <data>0.000</data>
             <data>0</data>
-            <data>44</data>
+            <data>131</data>
         </row>
     </table>
     <table id="synthesize_report_clock_network" title="Clock Network" column_number="1" tree="">
         <column_headers/>
         <row>
-            <data>top|clk_50m (1.00MHZ) (drive 39 loads) (min_rise, max_rise, min_fall, max_fall)</data>
+            <data>top|clk_50m (1.00MHZ) (drive 81 loads) (min_rise, max_rise, min_fall, max_fall)</data>
             <row>
                 <data file_id="../source/CPU.v" line_number="2">clk_50m (0.000, 0.000, 0.000, 0.000)</data>
                 <row>
@@ -379,121 +449,247 @@
                         <row>
                             <data file_id="../source/CPU.v" line_number="2">nt_clk_50m (net)</data>
                             <row>
-                                <data file_id="../source/CPU.v" line_number="17">cnt[0]/CLK (4.415, 4.415, 4.516, 4.516)</data>
+                                <data file_id="../source/CPU.v" line_number="12">cnt[0]/CLK (4.415, 4.415, 4.516, 4.516)</data>
                             </row>
                             <row>
-                                <data file_id="../source/CPU.v" line_number="17">cnt[1]/CLK (4.415, 4.415, 4.516, 4.516)</data>
+                                <data file_id="../source/CPU.v" line_number="12">cnt[1]/CLK (4.415, 4.415, 4.516, 4.516)</data>
                             </row>
                             <row>
-                                <data file_id="../source/CPU.v" line_number="17">cnt[2]/CLK (4.415, 4.415, 4.516, 4.516)</data>
+                                <data file_id="../source/CPU.v" line_number="12">cnt[2]/CLK (4.415, 4.415, 4.516, 4.516)</data>
                             </row>
                             <row>
-                                <data file_id="../source/CPU.v" line_number="17">cnt[3]/CLK (4.415, 4.415, 4.516, 4.516)</data>
+                                <data file_id="../source/CPU.v" line_number="12">cnt[3]/CLK (4.415, 4.415, 4.516, 4.516)</data>
                             </row>
                             <row>
-                                <data file_id="../source/CPU.v" line_number="17">cnt[4]/CLK (4.415, 4.415, 4.516, 4.516)</data>
+                                <data file_id="../source/CPU.v" line_number="12">cnt[4]/CLK (4.415, 4.415, 4.516, 4.516)</data>
                             </row>
                             <row>
-                                <data file_id="../source/CPU.v" line_number="17">cnt[5]/CLK (4.415, 4.415, 4.516, 4.516)</data>
+                                <data file_id="../source/CPU.v" line_number="12">cnt[5]/CLK (4.415, 4.415, 4.516, 4.516)</data>
                             </row>
                             <row>
-                                <data file_id="../source/CPU.v" line_number="17">cnt[6]/CLK (4.415, 4.415, 4.516, 4.516)</data>
+                                <data file_id="../source/CPU.v" line_number="12">cnt[6]/CLK (4.415, 4.415, 4.516, 4.516)</data>
                             </row>
                             <row>
-                                <data file_id="../source/CPU.v" line_number="17">cnt[7]/CLK (4.415, 4.415, 4.516, 4.516)</data>
+                                <data file_id="../source/CPU.v" line_number="12">cnt[7]/CLK (4.415, 4.415, 4.516, 4.516)</data>
                             </row>
                             <row>
-                                <data file_id="../source/CPU.v" line_number="17">cnt[8]/CLK (4.415, 4.415, 4.516, 4.516)</data>
+                                <data file_id="../source/CPU.v" line_number="12">cnt[8]/CLK (4.415, 4.415, 4.516, 4.516)</data>
                             </row>
                             <row>
-                                <data file_id="../source/CPU.v" line_number="17">cnt[9]/CLK (4.415, 4.415, 4.516, 4.516)</data>
+                                <data file_id="../source/CPU.v" line_number="12">cnt[9]/CLK (4.415, 4.415, 4.516, 4.516)</data>
                             </row>
                             <row>
-                                <data file_id="../source/CPU.v" line_number="17">cnt[10]/CLK (4.415, 4.415, 4.516, 4.516)</data>
+                                <data file_id="../source/CPU.v" line_number="12">cnt[10]/CLK (4.415, 4.415, 4.516, 4.516)</data>
                             </row>
                             <row>
-                                <data file_id="../source/CPU.v" line_number="17">cnt[11]/CLK (4.415, 4.415, 4.516, 4.516)</data>
+                                <data file_id="../source/CPU.v" line_number="12">cnt[11]/CLK (4.415, 4.415, 4.516, 4.516)</data>
                             </row>
                             <row>
-                                <data file_id="../source/CPU.v" line_number="17">cnt[12]/CLK (4.415, 4.415, 4.516, 4.516)</data>
+                                <data file_id="../source/CPU.v" line_number="12">cnt[12]/CLK (4.415, 4.415, 4.516, 4.516)</data>
                             </row>
                             <row>
-                                <data file_id="../source/CPU.v" line_number="17">cnt[13]/CLK (4.415, 4.415, 4.516, 4.516)</data>
+                                <data file_id="../source/CPU.v" line_number="12">cnt[13]/CLK (4.415, 4.415, 4.516, 4.516)</data>
                             </row>
                             <row>
-                                <data file_id="../source/CPU.v" line_number="17">cnt[14]/CLK (4.415, 4.415, 4.516, 4.516)</data>
+                                <data file_id="../source/CPU.v" line_number="12">cnt[14]/CLK (4.415, 4.415, 4.516, 4.516)</data>
                             </row>
                             <row>
-                                <data file_id="../source/CPU.v" line_number="17">cnt[15]/CLK (4.415, 4.415, 4.516, 4.516)</data>
+                                <data file_id="../source/CPU.v" line_number="12">cnt[15]/CLK (4.415, 4.415, 4.516, 4.516)</data>
                             </row>
                             <row>
-                                <data file_id="../source/CPU.v" line_number="17">cnt[16]/CLK (4.415, 4.415, 4.516, 4.516)</data>
+                                <data file_id="../source/CPU.v" line_number="12">cnt[16]/CLK (4.415, 4.415, 4.516, 4.516)</data>
                             </row>
                             <row>
-                                <data file_id="../source/CPU.v" line_number="17">cnt[17]/CLK (4.415, 4.415, 4.516, 4.516)</data>
+                                <data file_id="../source/CPU.v" line_number="12">cnt[17]/CLK (4.415, 4.415, 4.516, 4.516)</data>
                             </row>
                             <row>
-                                <data file_id="../source/CPU.v" line_number="17">cnt[18]/CLK (4.415, 4.415, 4.516, 4.516)</data>
+                                <data file_id="../source/CPU.v" line_number="12">cnt[18]/CLK (4.415, 4.415, 4.516, 4.516)</data>
                             </row>
                             <row>
-                                <data file_id="../source/CPU.v" line_number="17">cnt[19]/CLK (4.415, 4.415, 4.516, 4.516)</data>
+                                <data file_id="../source/CPU.v" line_number="12">cnt[19]/CLK (4.415, 4.415, 4.516, 4.516)</data>
                             </row>
                             <row>
-                                <data file_id="../source/CPU.v" line_number="17">cnt[20]/CLK (4.415, 4.415, 4.516, 4.516)</data>
+                                <data file_id="../source/CPU.v" line_number="12">cnt[20]/CLK (4.415, 4.415, 4.516, 4.516)</data>
                             </row>
                             <row>
-                                <data file_id="../source/CPU.v" line_number="17">cnt[21]/CLK (4.415, 4.415, 4.516, 4.516)</data>
+                                <data file_id="../source/CPU.v" line_number="12">cnt[21]/CLK (4.415, 4.415, 4.516, 4.516)</data>
                             </row>
                             <row>
-                                <data file_id="../source/CPU.v" line_number="17">cnt[22]/CLK (4.415, 4.415, 4.516, 4.516)</data>
+                                <data file_id="../source/CPU.v" line_number="12">cnt[22]/CLK (4.415, 4.415, 4.516, 4.516)</data>
                             </row>
                             <row>
-                                <data file_id="../source/CPU.v" line_number="17">cnt[23]/CLK (4.415, 4.415, 4.516, 4.516)</data>
+                                <data file_id="../source/CPU.v" line_number="12">cnt[23]/CLK (4.415, 4.415, 4.516, 4.516)</data>
                             </row>
                             <row>
-                                <data file_id="../source/CPU.v" line_number="17">cnt[24]/CLK (4.415, 4.415, 4.516, 4.516)</data>
+                                <data file_id="../source/CPU.v" line_number="12">cnt[24]/CLK (4.415, 4.415, 4.516, 4.516)</data>
                             </row>
                             <row>
-                                <data file_id="../source/uart_wb.v" line_number="59">u_uart/bit_cnt[0]/CLK (4.415, 4.415, 4.516, 4.516)</data>
+                                <data file_id="../source/VexRiscv.v" line_number="33">u_cpu/char_idx[0]/CLK (4.415, 4.415, 4.516, 4.516)</data>
                             </row>
                             <row>
-                                <data file_id="../source/uart_wb.v" line_number="59">u_uart/bit_cnt[1]/CLK (4.415, 4.415, 4.516, 4.516)</data>
+                                <data file_id="../source/VexRiscv.v" line_number="33">u_cpu/char_idx[1]/CLK (4.415, 4.415, 4.516, 4.516)</data>
                             </row>
                             <row>
-                                <data file_id="../source/uart_wb.v" line_number="59">u_uart/bit_cnt[2]/CLK (4.415, 4.415, 4.516, 4.516)</data>
+                                <data file_id="../source/VexRiscv.v" line_number="33">u_cpu/char_idx[2]/CLK (4.415, 4.415, 4.516, 4.516)</data>
                             </row>
                             <row>
-                                <data file_id="../source/uart_wb.v" line_number="59">u_uart/bit_cnt[3]/CLK (4.415, 4.415, 4.516, 4.516)</data>
+                                <data file_id="../source/VexRiscv.v" line_number="33">u_cpu/delay_cnt[0]/CLK (4.415, 4.415, 4.516, 4.516)</data>
                             </row>
                             <row>
-                                <data file_id="../source/uart_wb.v" line_number="59">u_uart/cnt[0]/CLK (4.415, 4.415, 4.516, 4.516)</data>
+                                <data file_id="../source/VexRiscv.v" line_number="33">u_cpu/delay_cnt[1]/CLK (4.415, 4.415, 4.516, 4.516)</data>
                             </row>
                             <row>
-                                <data file_id="../source/uart_wb.v" line_number="59">u_uart/cnt[1]/CLK (4.415, 4.415, 4.516, 4.516)</data>
+                                <data file_id="../source/VexRiscv.v" line_number="33">u_cpu/delay_cnt[2]/CLK (4.415, 4.415, 4.516, 4.516)</data>
                             </row>
                             <row>
-                                <data file_id="../source/uart_wb.v" line_number="59">u_uart/cnt[2]/CLK (4.415, 4.415, 4.516, 4.516)</data>
+                                <data file_id="../source/VexRiscv.v" line_number="33">u_cpu/delay_cnt[3]/CLK (4.415, 4.415, 4.516, 4.516)</data>
                             </row>
                             <row>
-                                <data file_id="../source/uart_wb.v" line_number="59">u_uart/cnt[3]/CLK (4.415, 4.415, 4.516, 4.516)</data>
+                                <data file_id="../source/VexRiscv.v" line_number="33">u_cpu/delay_cnt[4]/CLK (4.415, 4.415, 4.516, 4.516)</data>
                             </row>
                             <row>
-                                <data file_id="../source/uart_wb.v" line_number="59">u_uart/cnt[4]/CLK (4.415, 4.415, 4.516, 4.516)</data>
+                                <data file_id="../source/VexRiscv.v" line_number="33">u_cpu/delay_cnt[5]/CLK (4.415, 4.415, 4.516, 4.516)</data>
                             </row>
                             <row>
-                                <data file_id="../source/uart_wb.v" line_number="59">u_uart/cnt[5]/CLK (4.415, 4.415, 4.516, 4.516)</data>
+                                <data file_id="../source/VexRiscv.v" line_number="33">u_cpu/delay_cnt[6]/CLK (4.415, 4.415, 4.516, 4.516)</data>
                             </row>
                             <row>
-                                <data file_id="../source/uart_wb.v" line_number="59">u_uart/cnt[6]/CLK (4.415, 4.415, 4.516, 4.516)</data>
+                                <data file_id="../source/VexRiscv.v" line_number="33">u_cpu/delay_cnt[7]/CLK (4.415, 4.415, 4.516, 4.516)</data>
                             </row>
                             <row>
-                                <data file_id="../source/uart_wb.v" line_number="59">u_uart/cnt[7]/CLK (4.415, 4.415, 4.516, 4.516)</data>
+                                <data file_id="../source/VexRiscv.v" line_number="33">u_cpu/delay_cnt[8]/CLK (4.415, 4.415, 4.516, 4.516)</data>
                             </row>
                             <row>
-                                <data file_id="../source/uart_wb.v" line_number="59">u_uart/cnt[8]/CLK (4.415, 4.415, 4.516, 4.516)</data>
+                                <data file_id="../source/VexRiscv.v" line_number="33">u_cpu/delay_cnt[9]/CLK (4.415, 4.415, 4.516, 4.516)</data>
                             </row>
                             <row>
-                                <data file_id="../source/uart_wb.v" line_number="59">u_uart/tx_reg/CLK (4.415, 4.415, 4.516, 4.516)</data>
+                                <data file_id="../source/VexRiscv.v" line_number="33">u_cpu/delay_cnt[10]/CLK (4.415, 4.415, 4.516, 4.516)</data>
+                            </row>
+                            <row>
+                                <data file_id="../source/VexRiscv.v" line_number="33">u_cpu/delay_cnt[11]/CLK (4.415, 4.415, 4.516, 4.516)</data>
+                            </row>
+                            <row>
+                                <data file_id="../source/VexRiscv.v" line_number="33">u_cpu/delay_cnt[12]/CLK (4.415, 4.415, 4.516, 4.516)</data>
+                            </row>
+                            <row>
+                                <data file_id="../source/VexRiscv.v" line_number="33">u_cpu/delay_cnt[13]/CLK (4.415, 4.415, 4.516, 4.516)</data>
+                            </row>
+                            <row>
+                                <data file_id="../source/VexRiscv.v" line_number="33">u_cpu/delay_cnt[14]/CLK (4.415, 4.415, 4.516, 4.516)</data>
+                            </row>
+                            <row>
+                                <data file_id="../source/VexRiscv.v" line_number="33">u_cpu/delay_cnt[15]/CLK (4.415, 4.415, 4.516, 4.516)</data>
+                            </row>
+                            <row>
+                                <data file_id="../source/VexRiscv.v" line_number="33">u_cpu/delay_cnt[16]/CLK (4.415, 4.415, 4.516, 4.516)</data>
+                            </row>
+                            <row>
+                                <data file_id="../source/VexRiscv.v" line_number="33">u_cpu/delay_cnt[17]/CLK (4.415, 4.415, 4.516, 4.516)</data>
+                            </row>
+                            <row>
+                                <data file_id="../source/VexRiscv.v" line_number="33">u_cpu/delay_cnt[18]/CLK (4.415, 4.415, 4.516, 4.516)</data>
+                            </row>
+                            <row>
+                                <data file_id="../source/VexRiscv.v" line_number="33">u_cpu/delay_cnt[19]/CLK (4.415, 4.415, 4.516, 4.516)</data>
+                            </row>
+                            <row>
+                                <data file_id="../source/VexRiscv.v" line_number="33">u_cpu/delay_cnt[20]/CLK (4.415, 4.415, 4.516, 4.516)</data>
+                            </row>
+                            <row>
+                                <data file_id="../source/VexRiscv.v" line_number="33">u_cpu/delay_cnt[21]/CLK (4.415, 4.415, 4.516, 4.516)</data>
+                            </row>
+                            <row>
+                                <data file_id="../source/VexRiscv.v" line_number="33">u_cpu/state_0/CLK (4.415, 4.415, 4.516, 4.516)</data>
+                            </row>
+                            <row>
+                                <data file_id="../source/VexRiscv.v" line_number="33">u_cpu/wishbone_adr[28]/CLK (4.415, 4.415, 4.516, 4.516)</data>
+                            </row>
+                            <row>
+                                <data file_id="../source/VexRiscv.v" line_number="33">u_cpu/wishbone_cyc/CLK (4.415, 4.415, 4.516, 4.516)</data>
+                            </row>
+                            <row>
+                                <data file_id="../source/VexRiscv.v" line_number="33">u_cpu/wishbone_dat_w[0]/CLK (4.415, 4.415, 4.516, 4.516)</data>
+                            </row>
+                            <row>
+                                <data file_id="../source/VexRiscv.v" line_number="33">u_cpu/wishbone_dat_w[1]/CLK (4.415, 4.415, 4.516, 4.516)</data>
+                            </row>
+                            <row>
+                                <data file_id="../source/VexRiscv.v" line_number="33">u_cpu/wishbone_dat_w[2]/CLK (4.415, 4.415, 4.516, 4.516)</data>
+                            </row>
+                            <row>
+                                <data file_id="../source/VexRiscv.v" line_number="33">u_cpu/wishbone_dat_w[3]/CLK (4.415, 4.415, 4.516, 4.516)</data>
+                            </row>
+                            <row>
+                                <data file_id="../source/VexRiscv.v" line_number="33">u_cpu/wishbone_dat_w[6]/CLK (4.415, 4.415, 4.516, 4.516)</data>
+                            </row>
+                            <row>
+                                <data file_id="../source/wb_ram.v" line_number="25">u_ram/wb_ack/CLK (4.415, 4.415, 4.516, 4.516)</data>
+                            </row>
+                            <row>
+                                <data file_id="../source/uart_wb.v" line_number="31">u_uart/bit_cnt[0]/CLK (4.415, 4.415, 4.516, 4.516)</data>
+                            </row>
+                            <row>
+                                <data file_id="../source/uart_wb.v" line_number="31">u_uart/bit_cnt[1]/CLK (4.415, 4.415, 4.516, 4.516)</data>
+                            </row>
+                            <row>
+                                <data file_id="../source/uart_wb.v" line_number="31">u_uart/bit_cnt[2]/CLK (4.415, 4.415, 4.516, 4.516)</data>
+                            </row>
+                            <row>
+                                <data file_id="../source/uart_wb.v" line_number="31">u_uart/bit_cnt[3]/CLK (4.415, 4.415, 4.516, 4.516)</data>
+                            </row>
+                            <row>
+                                <data file_id="../source/uart_wb.v" line_number="31">u_uart/busy/CLK (4.415, 4.415, 4.516, 4.516)</data>
+                            </row>
+                            <row>
+                                <data file_id="../source/uart_wb.v" line_number="31">u_uart/cnt[0]/CLK (4.415, 4.415, 4.516, 4.516)</data>
+                            </row>
+                            <row>
+                                <data file_id="../source/uart_wb.v" line_number="31">u_uart/cnt[1]/CLK (4.415, 4.415, 4.516, 4.516)</data>
+                            </row>
+                            <row>
+                                <data file_id="../source/uart_wb.v" line_number="31">u_uart/cnt[2]/CLK (4.415, 4.415, 4.516, 4.516)</data>
+                            </row>
+                            <row>
+                                <data file_id="../source/uart_wb.v" line_number="31">u_uart/cnt[3]/CLK (4.415, 4.415, 4.516, 4.516)</data>
+                            </row>
+                            <row>
+                                <data file_id="../source/uart_wb.v" line_number="31">u_uart/cnt[4]/CLK (4.415, 4.415, 4.516, 4.516)</data>
+                            </row>
+                            <row>
+                                <data file_id="../source/uart_wb.v" line_number="31">u_uart/cnt[5]/CLK (4.415, 4.415, 4.516, 4.516)</data>
+                            </row>
+                            <row>
+                                <data file_id="../source/uart_wb.v" line_number="31">u_uart/cnt[6]/CLK (4.415, 4.415, 4.516, 4.516)</data>
+                            </row>
+                            <row>
+                                <data file_id="../source/uart_wb.v" line_number="31">u_uart/cnt[7]/CLK (4.415, 4.415, 4.516, 4.516)</data>
+                            </row>
+                            <row>
+                                <data file_id="../source/uart_wb.v" line_number="31">u_uart/cnt[8]/CLK (4.415, 4.415, 4.516, 4.516)</data>
+                            </row>
+                            <row>
+                                <data file_id="../source/uart_wb.v" line_number="31">u_uart/cnt[9]/CLK (4.415, 4.415, 4.516, 4.516)</data>
+                            </row>
+                            <row>
+                                <data file_id="../source/uart_wb.v" line_number="31">u_uart/data[0]/CLK (4.415, 4.415, 4.516, 4.516)</data>
+                            </row>
+                            <row>
+                                <data file_id="../source/uart_wb.v" line_number="31">u_uart/data[1]/CLK (4.415, 4.415, 4.516, 4.516)</data>
+                            </row>
+                            <row>
+                                <data file_id="../source/uart_wb.v" line_number="31">u_uart/data[2]/CLK (4.415, 4.415, 4.516, 4.516)</data>
+                            </row>
+                            <row>
+                                <data file_id="../source/uart_wb.v" line_number="31">u_uart/data[3]/CLK (4.415, 4.415, 4.516, 4.516)</data>
+                            </row>
+                            <row>
+                                <data file_id="../source/uart_wb.v" line_number="31">u_uart/data[6]/CLK (4.415, 4.415, 4.516, 4.516)</data>
+                            </row>
+                            <row>
+                                <data file_id="../source/uart_wb.v" line_number="31">u_uart/tx/CLK (4.415, 4.415, 4.516, 4.516)</data>
+                            </row>
+                            <row>
+                                <data file_id="../source/uart_wb.v" line_number="31">u_uart/wb_ack/CLK (4.415, 4.415, 4.516, 4.516)</data>
                             </row>
                         </row>
                     </row>
@@ -513,10 +709,10 @@
         <row>
             <data>top|clk_50m</data>
             <data>top|clk_50m</data>
-            <data>996.103</data>
+            <data>994.697</data>
             <data>0.000</data>
             <data>0</data>
-            <data>44</data>
+            <data>131</data>
         </row>
     </table>
     <table id="synthesize_report_timing_hold" title="Hold Summary" column_number="6">
@@ -531,10 +727,10 @@
         <row>
             <data>top|clk_50m</data>
             <data>top|clk_50m</data>
-            <data>1.029</data>
+            <data>0.740</data>
             <data>0.000</data>
             <data>0</data>
-            <data>44</data>
+            <data>131</data>
         </row>
     </table>
     <table id="synthesize_report_timing_mpw" title="Minimum Pulse Width Summary" column_number="5">
@@ -550,7 +746,7 @@
             <data>499.380</data>
             <data>0.000</data>
             <data>0</data>
-            <data>39</data>
+            <data>81</data>
         </row>
     </table>
     <table id="synthesize_report_timing_path_setup" title="Setup Path Summary" column_number="17">
@@ -574,11 +770,11 @@
             <data>Route delay</data>
         </column_headers>
         <row>
-            <data>996.103</data>
-            <data>3</data>
-            <data>11</data>
-            <data file_id="../source/uart_wb.v" line_number="59">u_uart/cnt[0]/CLK</data>
-            <data file_id="../source/uart_wb.v" line_number="59">u_uart/bit_cnt[0]/CE</data>
+            <data>994.697</data>
+            <data>5</data>
+            <data>24</data>
+            <data file_id="../source/VexRiscv.v" line_number="33">u_cpu/delay_cnt[7]/CLK</data>
+            <data file_id="../source/VexRiscv.v" line_number="33">u_cpu/char_idx[0]/CE</data>
             <data/>
             <data>top|clk_50m</data>
             <data>top|clk_50m</data>
@@ -588,13 +784,13 @@
             <data>4.415</data>
             <data>0.000</data>
             <data>1000.000</data>
-            <data>3.305</data>
-            <data>0.965 (29.2%)</data>
-            <data>2.340 (70.8%)</data>
+            <data>4.711</data>
+            <data>1.432 (30.4%)</data>
+            <data>3.279 (69.6%)</data>
             <general_container>
-                <data>Path #1: setup slack is 996.103(MET)</data>
+                <data>Path #1: setup slack is 994.697(MET)</data>
                 <table_container>
-                    <table id="arrival" title="Data arrival time is 7.720" column_number="6">
+                    <table id="arrival" title="Data arrival time is 9.126" column_number="6">
                         <column_headers>
                             <data>Location</data>
                             <data>Delay Type</data>
@@ -645,7 +841,7 @@
                         </row>
                         <row>
                             <data/>
-                            <data>net (fanout=39)</data>
+                            <data>net (fanout=81)</data>
                             <data>3.204</data>
                             <data>4.415</data>
                             <data/>
@@ -657,7 +853,7 @@
                             <data/>
                             <data/>
                             <data>r</data>
-                            <data file_id="../source/uart_wb.v" line_number="59">u_uart/cnt[0]/CLK (GTP_DFF_C)</data>
+                            <data file_id="../source/VexRiscv.v" line_number="33">u_cpu/delay_cnt[7]/CLK (GTP_DFF_CE)</data>
                         </row>
                         <row>
                             <data> </data>
@@ -665,15 +861,15 @@
                             <data>0.329</data>
                             <data>4.744</data>
                             <data>r</data>
-                            <data file_id="../source/uart_wb.v" line_number="59">u_uart/cnt[0]/Q (GTP_DFF_C)</data>
+                            <data file_id="../source/VexRiscv.v" line_number="33">u_cpu/delay_cnt[7]/Q (GTP_DFF_CE)</data>
                         </row>
                         <row>
                             <data/>
-                            <data>net (fanout=4)</data>
-                            <data>0.641</data>
-                            <data>5.385</data>
+                            <data>net (fanout=2)</data>
+                            <data>0.553</data>
+                            <data>5.297</data>
                             <data> </data>
-                            <data file_id="../source/uart_wb.v" line_number="24">u_uart/cnt [0]</data>
+                            <data file_id="../source/VexRiscv.v" line_number="17">u_cpu/delay_cnt [7]</data>
                         </row>
                         <row>
                             <data> </data>
@@ -681,23 +877,23 @@
                             <data/>
                             <data/>
                             <data/>
-                            <data object_valid="true">u_uart/N23_mux3_4/I2 (GTP_LUT4)</data>
+                            <data object_valid="true">u_cpu/N23_mux3_3/I0 (GTP_LUT4)</data>
                         </row>
                         <row>
                             <data> </data>
                             <data>td</data>
-                            <data>0.277</data>
-                            <data>5.662</data>
+                            <data>0.290</data>
+                            <data>5.587</data>
                             <data>f</data>
-                            <data object_valid="true">u_uart/N23_mux3_4/Z (GTP_LUT4)</data>
+                            <data object_valid="true">u_cpu/N23_mux3_3/Z (GTP_LUT4)</data>
                         </row>
                         <row>
                             <data/>
                             <data>net (fanout=1)</data>
                             <data>0.464</data>
-                            <data>6.126</data>
+                            <data>6.051</data>
                             <data> </data>
-                            <data object_valid="true">u_uart/_N16</data>
+                            <data object_valid="true">u_cpu/_N10</data>
                         </row>
                         <row>
                             <data> </data>
@@ -705,47 +901,95 @@
                             <data/>
                             <data/>
                             <data/>
-                            <data object_valid="true">u_uart/N23_mux8_3/I4 (GTP_LUT5)</data>
-                        </row>
-                        <row>
-                            <data> </data>
-                            <data>td</data>
-                            <data>0.187</data>
-                            <data>6.313</data>
-                            <data>f</data>
-                            <data object_valid="true">u_uart/N23_mux8_3/Z (GTP_LUT5)</data>
-                        </row>
-                        <row>
-                            <data/>
-                            <data>net (fanout=11)</data>
-                            <data>0.771</data>
-                            <data>7.084</data>
-                            <data> </data>
-                            <data file_id="../source/uart_wb.v" line_number="70">u_uart/N23</data>
-                        </row>
-                        <row>
-                            <data> </data>
-                            <data/>
-                            <data/>
-                            <data/>
-                            <data/>
-                            <data object_valid="true">u_uart/N89_inv/I3 (GTP_LUT4)</data>
+                            <data object_valid="true">u_cpu/N23_mux7_3/I4 (GTP_LUT5)</data>
                         </row>
                         <row>
                             <data> </data>
                             <data>td</data>
-                            <data>0.172</data>
-                            <data>7.256</data>
-                            <data>f</data>
-                            <data object_valid="true">u_uart/N89_inv/Z (GTP_LUT4)</data>
+                            <data>0.185</data>
+                            <data>6.236</data>
+                            <data>r</data>
+                            <data object_valid="true">u_cpu/N23_mux7_3/Z (GTP_LUT5)</data>
                         </row>
                         <row>
                             <data/>
-                            <data>net (fanout=4)</data>
+                            <data>net (fanout=1)</data>
                             <data>0.464</data>
-                            <data>7.720</data>
+                            <data>6.700</data>
                             <data> </data>
-                            <data object_valid="true">u_uart/N89</data>
+                            <data object_valid="true">u_cpu/_N18</data>
+                        </row>
+                        <row>
+                            <data> </data>
+                            <data/>
+                            <data/>
+                            <data/>
+                            <data/>
+                            <data object_valid="true">u_cpu/N23_mux11_4/I4 (GTP_LUT5)</data>
+                        </row>
+                        <row>
+                            <data> </data>
+                            <data>td</data>
+                            <data>0.185</data>
+                            <data>6.885</data>
+                            <data>r</data>
+                            <data object_valid="true">u_cpu/N23_mux11_4/Z (GTP_LUT5)</data>
+                        </row>
+                        <row>
+                            <data/>
+                            <data>net (fanout=1)</data>
+                            <data>0.464</data>
+                            <data>7.349</data>
+                            <data> </data>
+                            <data object_valid="true">u_cpu/_N26</data>
+                        </row>
+                        <row>
+                            <data> </data>
+                            <data/>
+                            <data/>
+                            <data/>
+                            <data/>
+                            <data object_valid="true">u_cpu/N23_mux16/I4 (GTP_LUT5)</data>
+                        </row>
+                        <row>
+                            <data> </data>
+                            <data>td</data>
+                            <data>0.185</data>
+                            <data>7.534</data>
+                            <data>r</data>
+                            <data object_valid="true">u_cpu/N23_mux16/Z (GTP_LUT5)</data>
+                        </row>
+                        <row>
+                            <data/>
+                            <data>net (fanout=24)</data>
+                            <data>0.870</data>
+                            <data>8.404</data>
+                            <data> </data>
+                            <data file_id="../source/VexRiscv.v" line_number="52">u_cpu/N23</data>
+                        </row>
+                        <row>
+                            <data> </data>
+                            <data/>
+                            <data/>
+                            <data/>
+                            <data/>
+                            <data file_id="../source/VexRiscv.v" line_number="45">u_cpu/N111/I0 (GTP_LUT5M)</data>
+                        </row>
+                        <row>
+                            <data> </data>
+                            <data>td</data>
+                            <data>0.258</data>
+                            <data>8.662</data>
+                            <data>f</data>
+                            <data file_id="../source/VexRiscv.v" line_number="45">u_cpu/N111/Z (GTP_LUT5M)</data>
+                        </row>
+                        <row>
+                            <data/>
+                            <data>net (fanout=3)</data>
+                            <data>0.464</data>
+                            <data>9.126</data>
+                            <data> </data>
+                            <data object_valid="true">u_cpu/N111</data>
                         </row>
                         <row>
                             <data> </data>
@@ -753,7 +997,7 @@
                             <data/>
                             <data/>
                             <data>f</data>
-                            <data file_id="../source/uart_wb.v" line_number="59">u_uart/bit_cnt[0]/CE (GTP_DFF_CE)</data>
+                            <data file_id="../source/VexRiscv.v" line_number="33">u_cpu/char_idx[0]/CE (GTP_DFF_CE)</data>
                         </row>
                     </table>
                 </table_container>
@@ -809,7 +1053,7 @@
                         </row>
                         <row>
                             <data/>
-                            <data>net (fanout=39)</data>
+                            <data>net (fanout=81)</data>
                             <data>3.204</data>
                             <data>1004.415</data>
                             <data/>
@@ -821,7 +1065,7 @@
                             <data/>
                             <data/>
                             <data>r</data>
-                            <data file_id="../source/uart_wb.v" line_number="59">u_uart/bit_cnt[0]/CLK (GTP_DFF_CE)</data>
+                            <data file_id="../source/VexRiscv.v" line_number="33">u_cpu/char_idx[0]/CLK (GTP_DFF_CE)</data>
                         </row>
                         <row>
                             <data>clock pessimism</data>
@@ -852,11 +1096,11 @@
             </general_container>
         </row>
         <row>
-            <data>996.103</data>
-            <data>3</data>
-            <data>11</data>
-            <data file_id="../source/uart_wb.v" line_number="59">u_uart/cnt[0]/CLK</data>
-            <data file_id="../source/uart_wb.v" line_number="59">u_uart/bit_cnt[1]/CE</data>
+            <data>994.697</data>
+            <data>5</data>
+            <data>24</data>
+            <data file_id="../source/VexRiscv.v" line_number="33">u_cpu/delay_cnt[7]/CLK</data>
+            <data file_id="../source/VexRiscv.v" line_number="33">u_cpu/char_idx[1]/CE</data>
             <data/>
             <data>top|clk_50m</data>
             <data>top|clk_50m</data>
@@ -866,13 +1110,13 @@
             <data>4.415</data>
             <data>0.000</data>
             <data>1000.000</data>
-            <data>3.305</data>
-            <data>0.965 (29.2%)</data>
-            <data>2.340 (70.8%)</data>
+            <data>4.711</data>
+            <data>1.432 (30.4%)</data>
+            <data>3.279 (69.6%)</data>
             <general_container>
-                <data>Path #2: setup slack is 996.103(MET)</data>
+                <data>Path #2: setup slack is 994.697(MET)</data>
                 <table_container>
-                    <table id="arrival" title="Data arrival time is 7.720" column_number="6">
+                    <table id="arrival" title="Data arrival time is 9.126" column_number="6">
                         <column_headers>
                             <data>Location</data>
                             <data>Delay Type</data>
@@ -923,7 +1167,7 @@
                         </row>
                         <row>
                             <data/>
-                            <data>net (fanout=39)</data>
+                            <data>net (fanout=81)</data>
                             <data>3.204</data>
                             <data>4.415</data>
                             <data/>
@@ -935,7 +1179,7 @@
                             <data/>
                             <data/>
                             <data>r</data>
-                            <data file_id="../source/uart_wb.v" line_number="59">u_uart/cnt[0]/CLK (GTP_DFF_C)</data>
+                            <data file_id="../source/VexRiscv.v" line_number="33">u_cpu/delay_cnt[7]/CLK (GTP_DFF_CE)</data>
                         </row>
                         <row>
                             <data> </data>
@@ -943,15 +1187,15 @@
                             <data>0.329</data>
                             <data>4.744</data>
                             <data>r</data>
-                            <data file_id="../source/uart_wb.v" line_number="59">u_uart/cnt[0]/Q (GTP_DFF_C)</data>
+                            <data file_id="../source/VexRiscv.v" line_number="33">u_cpu/delay_cnt[7]/Q (GTP_DFF_CE)</data>
                         </row>
                         <row>
                             <data/>
-                            <data>net (fanout=4)</data>
-                            <data>0.641</data>
-                            <data>5.385</data>
+                            <data>net (fanout=2)</data>
+                            <data>0.553</data>
+                            <data>5.297</data>
                             <data> </data>
-                            <data file_id="../source/uart_wb.v" line_number="24">u_uart/cnt [0]</data>
+                            <data file_id="../source/VexRiscv.v" line_number="17">u_cpu/delay_cnt [7]</data>
                         </row>
                         <row>
                             <data> </data>
@@ -959,23 +1203,23 @@
                             <data/>
                             <data/>
                             <data/>
-                            <data object_valid="true">u_uart/N23_mux3_4/I2 (GTP_LUT4)</data>
+                            <data object_valid="true">u_cpu/N23_mux3_3/I0 (GTP_LUT4)</data>
                         </row>
                         <row>
                             <data> </data>
                             <data>td</data>
-                            <data>0.277</data>
-                            <data>5.662</data>
+                            <data>0.290</data>
+                            <data>5.587</data>
                             <data>f</data>
-                            <data object_valid="true">u_uart/N23_mux3_4/Z (GTP_LUT4)</data>
+                            <data object_valid="true">u_cpu/N23_mux3_3/Z (GTP_LUT4)</data>
                         </row>
                         <row>
                             <data/>
                             <data>net (fanout=1)</data>
                             <data>0.464</data>
-                            <data>6.126</data>
+                            <data>6.051</data>
                             <data> </data>
-                            <data object_valid="true">u_uart/_N16</data>
+                            <data object_valid="true">u_cpu/_N10</data>
                         </row>
                         <row>
                             <data> </data>
@@ -983,47 +1227,95 @@
                             <data/>
                             <data/>
                             <data/>
-                            <data object_valid="true">u_uart/N23_mux8_3/I4 (GTP_LUT5)</data>
-                        </row>
-                        <row>
-                            <data> </data>
-                            <data>td</data>
-                            <data>0.187</data>
-                            <data>6.313</data>
-                            <data>f</data>
-                            <data object_valid="true">u_uart/N23_mux8_3/Z (GTP_LUT5)</data>
-                        </row>
-                        <row>
-                            <data/>
-                            <data>net (fanout=11)</data>
-                            <data>0.771</data>
-                            <data>7.084</data>
-                            <data> </data>
-                            <data file_id="../source/uart_wb.v" line_number="70">u_uart/N23</data>
-                        </row>
-                        <row>
-                            <data> </data>
-                            <data/>
-                            <data/>
-                            <data/>
-                            <data/>
-                            <data object_valid="true">u_uart/N89_inv/I3 (GTP_LUT4)</data>
+                            <data object_valid="true">u_cpu/N23_mux7_3/I4 (GTP_LUT5)</data>
                         </row>
                         <row>
                             <data> </data>
                             <data>td</data>
-                            <data>0.172</data>
-                            <data>7.256</data>
-                            <data>f</data>
-                            <data object_valid="true">u_uart/N89_inv/Z (GTP_LUT4)</data>
+                            <data>0.185</data>
+                            <data>6.236</data>
+                            <data>r</data>
+                            <data object_valid="true">u_cpu/N23_mux7_3/Z (GTP_LUT5)</data>
                         </row>
                         <row>
                             <data/>
-                            <data>net (fanout=4)</data>
+                            <data>net (fanout=1)</data>
                             <data>0.464</data>
-                            <data>7.720</data>
+                            <data>6.700</data>
                             <data> </data>
-                            <data object_valid="true">u_uart/N89</data>
+                            <data object_valid="true">u_cpu/_N18</data>
+                        </row>
+                        <row>
+                            <data> </data>
+                            <data/>
+                            <data/>
+                            <data/>
+                            <data/>
+                            <data object_valid="true">u_cpu/N23_mux11_4/I4 (GTP_LUT5)</data>
+                        </row>
+                        <row>
+                            <data> </data>
+                            <data>td</data>
+                            <data>0.185</data>
+                            <data>6.885</data>
+                            <data>r</data>
+                            <data object_valid="true">u_cpu/N23_mux11_4/Z (GTP_LUT5)</data>
+                        </row>
+                        <row>
+                            <data/>
+                            <data>net (fanout=1)</data>
+                            <data>0.464</data>
+                            <data>7.349</data>
+                            <data> </data>
+                            <data object_valid="true">u_cpu/_N26</data>
+                        </row>
+                        <row>
+                            <data> </data>
+                            <data/>
+                            <data/>
+                            <data/>
+                            <data/>
+                            <data object_valid="true">u_cpu/N23_mux16/I4 (GTP_LUT5)</data>
+                        </row>
+                        <row>
+                            <data> </data>
+                            <data>td</data>
+                            <data>0.185</data>
+                            <data>7.534</data>
+                            <data>r</data>
+                            <data object_valid="true">u_cpu/N23_mux16/Z (GTP_LUT5)</data>
+                        </row>
+                        <row>
+                            <data/>
+                            <data>net (fanout=24)</data>
+                            <data>0.870</data>
+                            <data>8.404</data>
+                            <data> </data>
+                            <data file_id="../source/VexRiscv.v" line_number="52">u_cpu/N23</data>
+                        </row>
+                        <row>
+                            <data> </data>
+                            <data/>
+                            <data/>
+                            <data/>
+                            <data/>
+                            <data file_id="../source/VexRiscv.v" line_number="45">u_cpu/N111/I0 (GTP_LUT5M)</data>
+                        </row>
+                        <row>
+                            <data> </data>
+                            <data>td</data>
+                            <data>0.258</data>
+                            <data>8.662</data>
+                            <data>f</data>
+                            <data file_id="../source/VexRiscv.v" line_number="45">u_cpu/N111/Z (GTP_LUT5M)</data>
+                        </row>
+                        <row>
+                            <data/>
+                            <data>net (fanout=3)</data>
+                            <data>0.464</data>
+                            <data>9.126</data>
+                            <data> </data>
+                            <data object_valid="true">u_cpu/N111</data>
                         </row>
                         <row>
                             <data> </data>
@@ -1031,7 +1323,7 @@
                             <data/>
                             <data/>
                             <data>f</data>
-                            <data file_id="../source/uart_wb.v" line_number="59">u_uart/bit_cnt[1]/CE (GTP_DFF_CE)</data>
+                            <data file_id="../source/VexRiscv.v" line_number="33">u_cpu/char_idx[1]/CE (GTP_DFF_CE)</data>
                         </row>
                     </table>
                 </table_container>
@@ -1087,7 +1379,7 @@
                         </row>
                         <row>
                             <data/>
-                            <data>net (fanout=39)</data>
+                            <data>net (fanout=81)</data>
                             <data>3.204</data>
                             <data>1004.415</data>
                             <data/>
@@ -1099,7 +1391,7 @@
                             <data/>
                             <data/>
                             <data>r</data>
-                            <data file_id="../source/uart_wb.v" line_number="59">u_uart/bit_cnt[1]/CLK (GTP_DFF_CE)</data>
+                            <data file_id="../source/VexRiscv.v" line_number="33">u_cpu/char_idx[1]/CLK (GTP_DFF_CE)</data>
                         </row>
                         <row>
                             <data>clock pessimism</data>
@@ -1130,11 +1422,11 @@
             </general_container>
         </row>
         <row>
-            <data>996.103</data>
-            <data>3</data>
-            <data>11</data>
-            <data file_id="../source/uart_wb.v" line_number="59">u_uart/cnt[0]/CLK</data>
-            <data file_id="../source/uart_wb.v" line_number="59">u_uart/bit_cnt[2]/CE</data>
+            <data>994.697</data>
+            <data>5</data>
+            <data>24</data>
+            <data file_id="../source/VexRiscv.v" line_number="33">u_cpu/delay_cnt[7]/CLK</data>
+            <data file_id="../source/VexRiscv.v" line_number="33">u_cpu/char_idx[2]/CE</data>
             <data/>
             <data>top|clk_50m</data>
             <data>top|clk_50m</data>
@@ -1144,13 +1436,13 @@
             <data>4.415</data>
             <data>0.000</data>
             <data>1000.000</data>
-            <data>3.305</data>
-            <data>0.965 (29.2%)</data>
-            <data>2.340 (70.8%)</data>
+            <data>4.711</data>
+            <data>1.432 (30.4%)</data>
+            <data>3.279 (69.6%)</data>
             <general_container>
-                <data>Path #3: setup slack is 996.103(MET)</data>
+                <data>Path #3: setup slack is 994.697(MET)</data>
                 <table_container>
-                    <table id="arrival" title="Data arrival time is 7.720" column_number="6">
+                    <table id="arrival" title="Data arrival time is 9.126" column_number="6">
                         <column_headers>
                             <data>Location</data>
                             <data>Delay Type</data>
@@ -1201,7 +1493,7 @@
                         </row>
                         <row>
                             <data/>
-                            <data>net (fanout=39)</data>
+                            <data>net (fanout=81)</data>
                             <data>3.204</data>
                             <data>4.415</data>
                             <data/>
@@ -1213,7 +1505,7 @@
                             <data/>
                             <data/>
                             <data>r</data>
-                            <data file_id="../source/uart_wb.v" line_number="59">u_uart/cnt[0]/CLK (GTP_DFF_C)</data>
+                            <data file_id="../source/VexRiscv.v" line_number="33">u_cpu/delay_cnt[7]/CLK (GTP_DFF_CE)</data>
                         </row>
                         <row>
                             <data> </data>
@@ -1221,15 +1513,15 @@
                             <data>0.329</data>
                             <data>4.744</data>
                             <data>r</data>
-                            <data file_id="../source/uart_wb.v" line_number="59">u_uart/cnt[0]/Q (GTP_DFF_C)</data>
+                            <data file_id="../source/VexRiscv.v" line_number="33">u_cpu/delay_cnt[7]/Q (GTP_DFF_CE)</data>
                         </row>
                         <row>
                             <data/>
-                            <data>net (fanout=4)</data>
-                            <data>0.641</data>
-                            <data>5.385</data>
+                            <data>net (fanout=2)</data>
+                            <data>0.553</data>
+                            <data>5.297</data>
                             <data> </data>
-                            <data file_id="../source/uart_wb.v" line_number="24">u_uart/cnt [0]</data>
+                            <data file_id="../source/VexRiscv.v" line_number="17">u_cpu/delay_cnt [7]</data>
                         </row>
                         <row>
                             <data> </data>
@@ -1237,23 +1529,23 @@
                             <data/>
                             <data/>
                             <data/>
-                            <data object_valid="true">u_uart/N23_mux3_4/I2 (GTP_LUT4)</data>
+                            <data object_valid="true">u_cpu/N23_mux3_3/I0 (GTP_LUT4)</data>
                         </row>
                         <row>
                             <data> </data>
                             <data>td</data>
-                            <data>0.277</data>
-                            <data>5.662</data>
+                            <data>0.290</data>
+                            <data>5.587</data>
                             <data>f</data>
-                            <data object_valid="true">u_uart/N23_mux3_4/Z (GTP_LUT4)</data>
+                            <data object_valid="true">u_cpu/N23_mux3_3/Z (GTP_LUT4)</data>
                         </row>
                         <row>
                             <data/>
                             <data>net (fanout=1)</data>
                             <data>0.464</data>
-                            <data>6.126</data>
+                            <data>6.051</data>
                             <data> </data>
-                            <data object_valid="true">u_uart/_N16</data>
+                            <data object_valid="true">u_cpu/_N10</data>
                         </row>
                         <row>
                             <data> </data>
@@ -1261,47 +1553,95 @@
                             <data/>
                             <data/>
                             <data/>
-                            <data object_valid="true">u_uart/N23_mux8_3/I4 (GTP_LUT5)</data>
-                        </row>
-                        <row>
-                            <data> </data>
-                            <data>td</data>
-                            <data>0.187</data>
-                            <data>6.313</data>
-                            <data>f</data>
-                            <data object_valid="true">u_uart/N23_mux8_3/Z (GTP_LUT5)</data>
-                        </row>
-                        <row>
-                            <data/>
-                            <data>net (fanout=11)</data>
-                            <data>0.771</data>
-                            <data>7.084</data>
-                            <data> </data>
-                            <data file_id="../source/uart_wb.v" line_number="70">u_uart/N23</data>
-                        </row>
-                        <row>
-                            <data> </data>
-                            <data/>
-                            <data/>
-                            <data/>
-                            <data/>
-                            <data object_valid="true">u_uart/N89_inv/I3 (GTP_LUT4)</data>
+                            <data object_valid="true">u_cpu/N23_mux7_3/I4 (GTP_LUT5)</data>
                         </row>
                         <row>
                             <data> </data>
                             <data>td</data>
-                            <data>0.172</data>
-                            <data>7.256</data>
-                            <data>f</data>
-                            <data object_valid="true">u_uart/N89_inv/Z (GTP_LUT4)</data>
+                            <data>0.185</data>
+                            <data>6.236</data>
+                            <data>r</data>
+                            <data object_valid="true">u_cpu/N23_mux7_3/Z (GTP_LUT5)</data>
                         </row>
                         <row>
                             <data/>
-                            <data>net (fanout=4)</data>
+                            <data>net (fanout=1)</data>
                             <data>0.464</data>
-                            <data>7.720</data>
+                            <data>6.700</data>
                             <data> </data>
-                            <data object_valid="true">u_uart/N89</data>
+                            <data object_valid="true">u_cpu/_N18</data>
+                        </row>
+                        <row>
+                            <data> </data>
+                            <data/>
+                            <data/>
+                            <data/>
+                            <data/>
+                            <data object_valid="true">u_cpu/N23_mux11_4/I4 (GTP_LUT5)</data>
+                        </row>
+                        <row>
+                            <data> </data>
+                            <data>td</data>
+                            <data>0.185</data>
+                            <data>6.885</data>
+                            <data>r</data>
+                            <data object_valid="true">u_cpu/N23_mux11_4/Z (GTP_LUT5)</data>
+                        </row>
+                        <row>
+                            <data/>
+                            <data>net (fanout=1)</data>
+                            <data>0.464</data>
+                            <data>7.349</data>
+                            <data> </data>
+                            <data object_valid="true">u_cpu/_N26</data>
+                        </row>
+                        <row>
+                            <data> </data>
+                            <data/>
+                            <data/>
+                            <data/>
+                            <data/>
+                            <data object_valid="true">u_cpu/N23_mux16/I4 (GTP_LUT5)</data>
+                        </row>
+                        <row>
+                            <data> </data>
+                            <data>td</data>
+                            <data>0.185</data>
+                            <data>7.534</data>
+                            <data>r</data>
+                            <data object_valid="true">u_cpu/N23_mux16/Z (GTP_LUT5)</data>
+                        </row>
+                        <row>
+                            <data/>
+                            <data>net (fanout=24)</data>
+                            <data>0.870</data>
+                            <data>8.404</data>
+                            <data> </data>
+                            <data file_id="../source/VexRiscv.v" line_number="52">u_cpu/N23</data>
+                        </row>
+                        <row>
+                            <data> </data>
+                            <data/>
+                            <data/>
+                            <data/>
+                            <data/>
+                            <data file_id="../source/VexRiscv.v" line_number="45">u_cpu/N111/I0 (GTP_LUT5M)</data>
+                        </row>
+                        <row>
+                            <data> </data>
+                            <data>td</data>
+                            <data>0.258</data>
+                            <data>8.662</data>
+                            <data>f</data>
+                            <data file_id="../source/VexRiscv.v" line_number="45">u_cpu/N111/Z (GTP_LUT5M)</data>
+                        </row>
+                        <row>
+                            <data/>
+                            <data>net (fanout=3)</data>
+                            <data>0.464</data>
+                            <data>9.126</data>
+                            <data> </data>
+                            <data object_valid="true">u_cpu/N111</data>
                         </row>
                         <row>
                             <data> </data>
@@ -1309,7 +1649,7 @@
                             <data/>
                             <data/>
                             <data>f</data>
-                            <data file_id="../source/uart_wb.v" line_number="59">u_uart/bit_cnt[2]/CE (GTP_DFF_CE)</data>
+                            <data file_id="../source/VexRiscv.v" line_number="33">u_cpu/char_idx[2]/CE (GTP_DFF_CE)</data>
                         </row>
                     </table>
                 </table_container>
@@ -1365,7 +1705,7 @@
                         </row>
                         <row>
                             <data/>
-                            <data>net (fanout=39)</data>
+                            <data>net (fanout=81)</data>
                             <data>3.204</data>
                             <data>1004.415</data>
                             <data/>
@@ -1377,7 +1717,7 @@
                             <data/>
                             <data/>
                             <data>r</data>
-                            <data file_id="../source/uart_wb.v" line_number="59">u_uart/bit_cnt[2]/CLK (GTP_DFF_CE)</data>
+                            <data file_id="../source/VexRiscv.v" line_number="33">u_cpu/char_idx[2]/CLK (GTP_DFF_CE)</data>
                         </row>
                         <row>
                             <data>clock pessimism</data>
@@ -1429,11 +1769,11 @@
             <data>Route delay</data>
         </column_headers>
         <row>
-            <data>1.029</data>
+            <data>0.740</data>
+            <data>0</data>
             <data>1</data>
-            <data>1</data>
-            <data file_id="../source/CPU.v" line_number="17">cnt[3]/CLK</data>
-            <data file_id="../source/CPU.v" line_number="17">cnt[3]/D</data>
+            <data file_id="../source/VexRiscv.v" line_number="33">u_cpu/wishbone_dat_w[0]/CLK</data>
+            <data file_id="../source/uart_wb.v" line_number="31">u_uart/data[0]/D</data>
             <data/>
             <data>top|clk_50m</data>
             <data>top|clk_50m</data>
@@ -1443,13 +1783,13 @@
             <data>4.415</data>
             <data>0.000</data>
             <data>0.000</data>
-            <data>1.068</data>
-            <data>0.604 (56.6%)</data>
-            <data>0.464 (43.4%)</data>
+            <data>0.787</data>
+            <data>0.323 (41.0%)</data>
+            <data>0.464 (59.0%)</data>
             <general_container>
-                <data>Path #1: hold slack is 1.029(MET)</data>
+                <data>Path #1: hold slack is 0.740(MET)</data>
                 <table_container>
-                    <table id="arrival" title="Data arrival time is 5.483" column_number="6">
+                    <table id="arrival" title="Data arrival time is 5.202" column_number="6">
                         <column_headers>
                             <data>Location</data>
                             <data>Delay Type</data>
@@ -1500,7 +1840,7 @@
                         </row>
                         <row>
                             <data/>
-                            <data>net (fanout=39)</data>
+                            <data>net (fanout=81)</data>
                             <data>3.204</data>
                             <data>4.415</data>
                             <data/>
@@ -1512,7 +1852,7 @@
                             <data/>
                             <data/>
                             <data>r</data>
-                            <data file_id="../source/CPU.v" line_number="17">cnt[3]/CLK (GTP_DFF_C)</data>
+                            <data file_id="../source/VexRiscv.v" line_number="33">u_cpu/wishbone_dat_w[0]/CLK (GTP_DFF_CE)</data>
                         </row>
                         <row>
                             <data> </data>
@@ -1520,7 +1860,7 @@
                             <data>0.323</data>
                             <data>4.738</data>
                             <data>f</data>
-                            <data file_id="../source/CPU.v" line_number="17">cnt[3]/Q (GTP_DFF_C)</data>
+                            <data file_id="../source/VexRiscv.v" line_number="33">u_cpu/wishbone_dat_w[0]/Q (GTP_DFF_CE)</data>
                         </row>
                         <row>
                             <data/>
@@ -1528,44 +1868,20 @@
                             <data>0.464</data>
                             <data>5.202</data>
                             <data> </data>
-                            <data file_id="../source/CPU.v" line_number="16">cnt[3]</data>
+                            <data file_id="../source/CPU.v" line_number="23">wb_dat_w[0]</data>
                         </row>
                         <row>
                             <data> </data>
                             <data/>
                             <data/>
                             <data/>
-                            <data/>
-                            <data file_id="../source/CPU.v" line_number="19">N4_0_3/I1 (GTP_LUT5CARRY)</data>
-                        </row>
-                        <row>
-                            <data> </data>
-                            <data>td</data>
-                            <data>0.281</data>
-                            <data>5.483</data>
-                            <data>r</data>
-                            <data file_id="../source/CPU.v" line_number="19">N4_0_3/Z (GTP_LUT5CARRY)</data>
-                        </row>
-                        <row>
-                            <data/>
-                            <data>net (fanout=1)</data>
-                            <data>0.000</data>
-                            <data>5.483</data>
-                            <data> </data>
-                            <data file_id="../source/CPU.v" line_number="19">N4[3]</data>
-                        </row>
-                        <row>
-                            <data> </data>
-                            <data/>
-                            <data/>
-                            <data/>
-                            <data>r</data>
-                            <data file_id="../source/CPU.v" line_number="17">cnt[3]/D (GTP_DFF_C)</data>
+                            <data>f</data>
+                            <data file_id="../source/uart_wb.v" line_number="31">u_uart/data[0]/D (GTP_DFF_CE)</data>
                         </row>
                     </table>
                 </table_container>
                 <table_container>
-                    <table id="require" title="Data required time is 4.454" column_number="6">
+                    <table id="require" title="Data required time is 4.462" column_number="6">
                         <column_headers>
                             <data>Location</data>
                             <data>Delay Type</data>
@@ -1616,7 +1932,7 @@
                         </row>
                         <row>
                             <data/>
-                            <data>net (fanout=39)</data>
+                            <data>net (fanout=81)</data>
                             <data>3.204</data>
                             <data>4.415</data>
                             <data/>
@@ -1628,7 +1944,7 @@
                             <data/>
                             <data/>
                             <data>r</data>
-                            <data file_id="../source/CPU.v" line_number="17">cnt[3]/CLK (GTP_DFF_C)</data>
+                            <data file_id="../source/uart_wb.v" line_number="31">u_uart/data[0]/CLK (GTP_DFF_CE)</data>
                         </row>
                         <row>
                             <data>clock pessimism</data>
@@ -1649,8 +1965,8 @@
                         <row>
                             <data>Hold time</data>
                             <data/>
-                            <data>0.039</data>
-                            <data>4.454</data>
+                            <data>0.047</data>
+                            <data>4.462</data>
                             <data/>
                             <data/>
                         </row>
@@ -1659,11 +1975,11 @@
             </general_container>
         </row>
         <row>
-            <data>1.029</data>
+            <data>0.740</data>
+            <data>0</data>
             <data>1</data>
-            <data>1</data>
-            <data file_id="../source/CPU.v" line_number="17">cnt[4]/CLK</data>
-            <data file_id="../source/CPU.v" line_number="17">cnt[4]/D</data>
+            <data file_id="../source/VexRiscv.v" line_number="33">u_cpu/wishbone_dat_w[1]/CLK</data>
+            <data file_id="../source/uart_wb.v" line_number="31">u_uart/data[1]/D</data>
             <data/>
             <data>top|clk_50m</data>
             <data>top|clk_50m</data>
@@ -1673,13 +1989,13 @@
             <data>4.415</data>
             <data>0.000</data>
             <data>0.000</data>
-            <data>1.068</data>
-            <data>0.604 (56.6%)</data>
-            <data>0.464 (43.4%)</data>
+            <data>0.787</data>
+            <data>0.323 (41.0%)</data>
+            <data>0.464 (59.0%)</data>
             <general_container>
-                <data>Path #2: hold slack is 1.029(MET)</data>
+                <data>Path #2: hold slack is 0.740(MET)</data>
                 <table_container>
-                    <table id="arrival" title="Data arrival time is 5.483" column_number="6">
+                    <table id="arrival" title="Data arrival time is 5.202" column_number="6">
                         <column_headers>
                             <data>Location</data>
                             <data>Delay Type</data>
@@ -1730,7 +2046,7 @@
                         </row>
                         <row>
                             <data/>
-                            <data>net (fanout=39)</data>
+                            <data>net (fanout=81)</data>
                             <data>3.204</data>
                             <data>4.415</data>
                             <data/>
@@ -1742,7 +2058,7 @@
                             <data/>
                             <data/>
                             <data>r</data>
-                            <data file_id="../source/CPU.v" line_number="17">cnt[4]/CLK (GTP_DFF_C)</data>
+                            <data file_id="../source/VexRiscv.v" line_number="33">u_cpu/wishbone_dat_w[1]/CLK (GTP_DFF_CE)</data>
                         </row>
                         <row>
                             <data> </data>
@@ -1750,7 +2066,7 @@
                             <data>0.323</data>
                             <data>4.738</data>
                             <data>f</data>
-                            <data file_id="../source/CPU.v" line_number="17">cnt[4]/Q (GTP_DFF_C)</data>
+                            <data file_id="../source/VexRiscv.v" line_number="33">u_cpu/wishbone_dat_w[1]/Q (GTP_DFF_CE)</data>
                         </row>
                         <row>
                             <data/>
@@ -1758,44 +2074,20 @@
                             <data>0.464</data>
                             <data>5.202</data>
                             <data> </data>
-                            <data file_id="../source/CPU.v" line_number="16">cnt[4]</data>
+                            <data file_id="../source/CPU.v" line_number="23">wb_dat_w[1]</data>
                         </row>
                         <row>
                             <data> </data>
                             <data/>
                             <data/>
                             <data/>
-                            <data/>
-                            <data file_id="../source/CPU.v" line_number="19">N4_0_4/I1 (GTP_LUT5CARRY)</data>
-                        </row>
-                        <row>
-                            <data> </data>
-                            <data>td</data>
-                            <data>0.281</data>
-                            <data>5.483</data>
-                            <data>r</data>
-                            <data file_id="../source/CPU.v" line_number="19">N4_0_4/Z (GTP_LUT5CARRY)</data>
-                        </row>
-                        <row>
-                            <data/>
-                            <data>net (fanout=1)</data>
-                            <data>0.000</data>
-                            <data>5.483</data>
-                            <data> </data>
-                            <data file_id="../source/CPU.v" line_number="19">N4[4]</data>
-                        </row>
-                        <row>
-                            <data> </data>
-                            <data/>
-                            <data/>
-                            <data/>
-                            <data>r</data>
-                            <data file_id="../source/CPU.v" line_number="17">cnt[4]/D (GTP_DFF_C)</data>
+                            <data>f</data>
+                            <data file_id="../source/uart_wb.v" line_number="31">u_uart/data[1]/D (GTP_DFF_CE)</data>
                         </row>
                     </table>
                 </table_container>
                 <table_container>
-                    <table id="require" title="Data required time is 4.454" column_number="6">
+                    <table id="require" title="Data required time is 4.462" column_number="6">
                         <column_headers>
                             <data>Location</data>
                             <data>Delay Type</data>
@@ -1846,7 +2138,7 @@
                         </row>
                         <row>
                             <data/>
-                            <data>net (fanout=39)</data>
+                            <data>net (fanout=81)</data>
                             <data>3.204</data>
                             <data>4.415</data>
                             <data/>
@@ -1858,7 +2150,7 @@
                             <data/>
                             <data/>
                             <data>r</data>
-                            <data file_id="../source/CPU.v" line_number="17">cnt[4]/CLK (GTP_DFF_C)</data>
+                            <data file_id="../source/uart_wb.v" line_number="31">u_uart/data[1]/CLK (GTP_DFF_CE)</data>
                         </row>
                         <row>
                             <data>clock pessimism</data>
@@ -1879,8 +2171,8 @@
                         <row>
                             <data>Hold time</data>
                             <data/>
-                            <data>0.039</data>
-                            <data>4.454</data>
+                            <data>0.047</data>
+                            <data>4.462</data>
                             <data/>
                             <data/>
                         </row>
@@ -1889,11 +2181,11 @@
             </general_container>
         </row>
         <row>
-            <data>1.029</data>
+            <data>0.740</data>
+            <data>0</data>
             <data>1</data>
-            <data>1</data>
-            <data file_id="../source/CPU.v" line_number="17">cnt[5]/CLK</data>
-            <data file_id="../source/CPU.v" line_number="17">cnt[5]/D</data>
+            <data file_id="../source/VexRiscv.v" line_number="33">u_cpu/wishbone_dat_w[2]/CLK</data>
+            <data file_id="../source/uart_wb.v" line_number="31">u_uart/data[2]/D</data>
             <data/>
             <data>top|clk_50m</data>
             <data>top|clk_50m</data>
@@ -1903,13 +2195,13 @@
             <data>4.415</data>
             <data>0.000</data>
             <data>0.000</data>
-            <data>1.068</data>
-            <data>0.604 (56.6%)</data>
-            <data>0.464 (43.4%)</data>
+            <data>0.787</data>
+            <data>0.323 (41.0%)</data>
+            <data>0.464 (59.0%)</data>
             <general_container>
-                <data>Path #3: hold slack is 1.029(MET)</data>
+                <data>Path #3: hold slack is 0.740(MET)</data>
                 <table_container>
-                    <table id="arrival" title="Data arrival time is 5.483" column_number="6">
+                    <table id="arrival" title="Data arrival time is 5.202" column_number="6">
                         <column_headers>
                             <data>Location</data>
                             <data>Delay Type</data>
@@ -1960,7 +2252,7 @@
                         </row>
                         <row>
                             <data/>
-                            <data>net (fanout=39)</data>
+                            <data>net (fanout=81)</data>
                             <data>3.204</data>
                             <data>4.415</data>
                             <data/>
@@ -1972,7 +2264,7 @@
                             <data/>
                             <data/>
                             <data>r</data>
-                            <data file_id="../source/CPU.v" line_number="17">cnt[5]/CLK (GTP_DFF_C)</data>
+                            <data file_id="../source/VexRiscv.v" line_number="33">u_cpu/wishbone_dat_w[2]/CLK (GTP_DFF_CE)</data>
                         </row>
                         <row>
                             <data> </data>
@@ -1980,7 +2272,7 @@
                             <data>0.323</data>
                             <data>4.738</data>
                             <data>f</data>
-                            <data file_id="../source/CPU.v" line_number="17">cnt[5]/Q (GTP_DFF_C)</data>
+                            <data file_id="../source/VexRiscv.v" line_number="33">u_cpu/wishbone_dat_w[2]/Q (GTP_DFF_CE)</data>
                         </row>
                         <row>
                             <data/>
@@ -1988,44 +2280,20 @@
                             <data>0.464</data>
                             <data>5.202</data>
                             <data> </data>
-                            <data file_id="../source/CPU.v" line_number="16">cnt[5]</data>
+                            <data file_id="../source/CPU.v" line_number="23">wb_dat_w[2]</data>
                         </row>
                         <row>
                             <data> </data>
                             <data/>
                             <data/>
                             <data/>
-                            <data/>
-                            <data file_id="../source/CPU.v" line_number="19">N4_0_5/I1 (GTP_LUT5CARRY)</data>
-                        </row>
-                        <row>
-                            <data> </data>
-                            <data>td</data>
-                            <data>0.281</data>
-                            <data>5.483</data>
-                            <data>r</data>
-                            <data file_id="../source/CPU.v" line_number="19">N4_0_5/Z (GTP_LUT5CARRY)</data>
-                        </row>
-                        <row>
-                            <data/>
-                            <data>net (fanout=1)</data>
-                            <data>0.000</data>
-                            <data>5.483</data>
-                            <data> </data>
-                            <data file_id="../source/CPU.v" line_number="19">N4[5]</data>
-                        </row>
-                        <row>
-                            <data> </data>
-                            <data/>
-                            <data/>
-                            <data/>
-                            <data>r</data>
-                            <data file_id="../source/CPU.v" line_number="17">cnt[5]/D (GTP_DFF_C)</data>
+                            <data>f</data>
+                            <data file_id="../source/uart_wb.v" line_number="31">u_uart/data[2]/D (GTP_DFF_CE)</data>
                         </row>
                     </table>
                 </table_container>
                 <table_container>
-                    <table id="require" title="Data required time is 4.454" column_number="6">
+                    <table id="require" title="Data required time is 4.462" column_number="6">
                         <column_headers>
                             <data>Location</data>
                             <data>Delay Type</data>
@@ -2076,7 +2344,7 @@
                         </row>
                         <row>
                             <data/>
-                            <data>net (fanout=39)</data>
+                            <data>net (fanout=81)</data>
                             <data>3.204</data>
                             <data>4.415</data>
                             <data/>
@@ -2088,7 +2356,7 @@
                             <data/>
                             <data/>
                             <data>r</data>
-                            <data file_id="../source/CPU.v" line_number="17">cnt[5]/CLK (GTP_DFF_C)</data>
+                            <data file_id="../source/uart_wb.v" line_number="31">u_uart/data[2]/CLK (GTP_DFF_CE)</data>
                         </row>
                         <row>
                             <data>clock pessimism</data>
@@ -2109,8 +2377,8 @@
                         <row>
                             <data>Hold time</data>
                             <data/>
-                            <data>0.039</data>
-                            <data>4.454</data>
+                            <data>0.047</data>
+                            <data>4.462</data>
                             <data/>
                             <data/>
                         </row>
@@ -2136,7 +2404,7 @@
             <data>top|clk_50m</data>
             <data>High Pulse Width</data>
             <data></data>
-            <data file_id="../source/CPU.v" line_number="17">cnt[0]/CLK</data>
+            <data file_id="../source/CPU.v" line_number="12">cnt[0]/CLK</data>
         </row>
         <row>
             <data>499.380</data>
@@ -2145,7 +2413,7 @@
             <data>top|clk_50m</data>
             <data>Low Pulse Width</data>
             <data></data>
-            <data file_id="../source/CPU.v" line_number="17">cnt[0]/CLK</data>
+            <data file_id="../source/CPU.v" line_number="12">cnt[0]/CLK</data>
         </row>
         <row>
             <data>499.380</data>
@@ -2154,7 +2422,7 @@
             <data>top|clk_50m</data>
             <data>High Pulse Width</data>
             <data></data>
-            <data file_id="../source/CPU.v" line_number="17">cnt[1]/CLK</data>
+            <data file_id="../source/CPU.v" line_number="12">cnt[1]/CLK</data>
         </row>
     </table>
     <table id="synthesize_resource_usage" title="GTP Usage" column_number="2">
@@ -2164,10 +2432,10 @@
         </column_headers>
         <comment>
             <data>
-Total LUTs: 43 of 42800 (0.10%)
+Total LUTs: 93 of 42800 (0.22%)
 	LUTs as dram: 0 of 17000 (0.00%)
-	LUTs as logic: 43
-Total Registers: 39 of 64200 (0.06%)
+	LUTs as logic: 93
+Total Registers: 81 of 64200 (0.13%)
 Total Latches: 0
 
 DRM18K:
@@ -2181,11 +2449,15 @@ Total I/O ports = 4 of 296 (1.35%)
         </comment>
         <row>
             <data>GTP_DFF_C                   </data>
-            <data>34</data>
+            <data>29</data>
         </row>
         <row>
-            <data>GTP_DFF_CE                   </data>
-            <data>4</data>
+            <data>GTP_DFF_CE                  </data>
+            <data>50</data>
+        </row>
+        <row>
+            <data>GTP_DFF_P                    </data>
+            <data>1</data>
         </row>
         <row>
             <data>GTP_DFF_PE                   </data>
@@ -2201,27 +2473,31 @@ Total I/O ports = 4 of 296 (1.35%)
         </row>
         <row>
             <data>GTP_LUT1                     </data>
-            <data>2</data>
+            <data>1</data>
         </row>
         <row>
             <data>GTP_LUT2                     </data>
-            <data>3</data>
+            <data>8</data>
         </row>
         <row>
             <data>GTP_LUT3                     </data>
-            <data>1</data>
+            <data>8</data>
         </row>
         <row>
             <data>GTP_LUT4                     </data>
-            <data>4</data>
+            <data>9</data>
         </row>
         <row>
             <data>GTP_LUT5                     </data>
-            <data>1</data>
+            <data>8</data>
         </row>
         <row>
             <data>GTP_LUT5CARRY               </data>
-            <data>32</data>
+            <data>54</data>
+        </row>
+        <row>
+            <data>GTP_LUT5M                    </data>
+            <data>5</data>
         </row>
         <row>
             <data>GTP_INBUF                  </data>
@@ -2238,7 +2514,7 @@ Total I/O ports = 4 of 296 (1.35%)
             <data>File Type</data>
         </column_headers>
         <row>
-            <data>C:/Users/happuking/Desktop/FPGA-CPU/FPGA-CPU.fdc</data>
+            <data>C:/Users/happuking/Desktop/FPGA-RISC-V-CPU/FPGA-CPU.fdc</data>
             <data>fdc</data>
         </row>
     </table>
@@ -2256,7 +2532,7 @@ Total I/O ports = 4 of 296 (1.35%)
             <data>0h:0m:2s</data>
             <data>0h:0m:2s</data>
             <data>0h:0m:4s</data>
-            <data>262</data>
+            <data>264</data>
             <data>WINDOWS 10 x86_64</data>
             <data>AMD Ryzen 9 7940HX with Radeon Graphics</data>
             <data>15</data>
@@ -2265,118 +2541,289 @@ Total I/O ports = 4 of 296 (1.35%)
     <table id="synthesize_messages" title="Synthesize Messages" column_number="1">
         <column_headers/>
         <row>
-            <data message="6">ConstraintEditor-2002: [C:/Users/happuking/Desktop/FPGA-CPU/FPGA-CPU.fdc(line number: 14)] | Port rst_n has been placed at location K18, whose type is share pin.</data>
+            <data message="6">ConstraintEditor-2002: [C:/Users/happuking/Desktop/FPGA-RISC-V-CPU/FPGA-CPU.fdc(line number: 14)] | Port rst_n has been placed at location K18, whose type is share pin.</data>
         </row>
         <row>
             <data message="6">SDC-2025: Clock source 'n:clk_50m' need a clock constraint, please use 'create_clock' or 'create_generate_clock' to generate.</data>
         </row>
         <row>
-            <data message="4">Encoding type of FSM 'state_fsm[1:0]' is: onehot.</data>
+            <data message="4">Encoding type of FSM 'state_fsm[3:0]' is: onehot.</data>
         </row>
         <row>
-            <data message="4">[C:/Users/happuking/Desktop/FPGA-CPU/source/VexRiscv.v(line number:22)] The user initial state for regs on FSM state_fsm[1:0] is 00 and be encoded 01.</data>
+            <data message="4">[C:/Users/happuking/Desktop/FPGA-RISC-V-CPU/source/VexRiscv.v(line number:33)] The user initial state for regs on FSM state_fsm[3:0] is 0001 and be encoded 01.</data>
         </row>
         <row>
-            <data message="4">Encoding table of FSM 'state_fsm[1:0]':</data>
+            <data message="4">Encoding table of FSM 'state_fsm[3:0]':</data>
         </row>
         <row>
-            <data message="4">from  u_cpu/state[1] u_cpu/state[0]</data>
+            <data message="4">from  u_cpu/state[3] u_cpu/state[2] u_cpu/state[1] u_cpu/state[0]</data>
         </row>
         <row>
             <data message="4">to  u_cpu/state_1 u_cpu/state_0</data>
         </row>
         <row>
-            <data message="4">00 =&gt; 01</data>
+            <data message="4">0001 =&gt; 01</data>
         </row>
         <row>
-            <data message="4">01 =&gt; 10</data>
+            <data message="4">0010 =&gt; 10</data>
         </row>
         <row>
             <data message="5">Public-4008: Instance 'state_1' of 'bmsWIDEDFFCPE' unit is dangling and will be cleaned.</data>
         </row>
         <row>
-            <data message="4">Constant propagation done on u_uart/N10 (bmsREDAND).</data>
+            <data message="4">Constant propagation done on u_cpu/state_fsm[3:0]_1 (bmsREDOR).</data>
         </row>
         <row>
-            <data message="5">Removed bmsWIDEDFFCPE inst u_uart/tx_data[7:0] at 0 that is stuck at constant 0.</data>
+            <data message="5">Removed bmsWIDEDFFCPE inst wishbone_adr[31:0] at 0 that is stuck at constant 0.</data>
         </row>
         <row>
-            <data message="5">Removed bmsWIDEDFFCPE inst u_uart/tx_data[7:0] at 1 that is stuck at constant 0.</data>
+            <data message="4">Constant propagation done on u_cpu/wishbone_adr[31:0] (bmsWIDEDFFCPE).</data>
         </row>
         <row>
-            <data message="5">Removed bmsWIDEDFFCPE inst u_uart/tx_data[7:0] at 2 that is stuck at constant 0.</data>
+            <data message="5">Removed bmsWIDEDFFCPE inst wishbone_dat_w[31:0] at 4 that is stuck at constant 0.</data>
         </row>
         <row>
-            <data message="5">Removed bmsWIDEDFFCPE inst u_uart/tx_data[7:0] at 3 that is stuck at constant 0.</data>
+            <data message="4">Constant propagation done on u_cpu/wishbone_dat_w[31:0] (bmsWIDEDFFCPE).</data>
         </row>
         <row>
-            <data message="5">Removed bmsWIDEDFFCPE inst u_uart/tx_data[7:0] at 4 that is stuck at constant 0.</data>
+            <data message="5">Removed bmsWIDEDFFCPE inst cnt[15:0] at 10 that is stuck at constant 0.</data>
         </row>
         <row>
-            <data message="5">Removed bmsWIDEDFFCPE inst u_uart/tx_data[7:0] at 5 that is stuck at constant 0.</data>
+            <data message="4">Constant propagation done on u_uart/cnt[15:0] (bmsWIDEDFFCPE).</data>
         </row>
         <row>
-            <data message="5">Removed bmsWIDEDFFCPE inst u_uart/tx_data[7:0] at 6 that is stuck at constant 0.</data>
+            <data message="5">Public-4008: Instance 'u_uart/wb_dat_r[31:0]' of 'bmsWIDEDFFCPE' unit is dangling and will be cleaned.</data>
         </row>
         <row>
-            <data message="5">Removed bmsWIDEDFFCPE inst u_uart/tx_data[7:0] at 7 that is stuck at constant 0.</data>
+            <data message="4">Constant propagation done on N26 (bmsWIDEINV).</data>
         </row>
         <row>
-            <data message="4">Constant propagation done on u_uart/tx_data[7:0] (bmsWIDEDFFCPE).</data>
+            <data message="4">Constant propagation done on N27 (bmsWIDEINV).</data>
         </row>
         <row>
-            <data message="5">Removed bmsWIDEDFFCPE inst u_uart/tx_en that is stuck at constant 0.</data>
+            <data message="4">Constant propagation done on N28 (bmsWIDEINV).</data>
         </row>
         <row>
-            <data message="4">Constant propagation done on u_uart/tx_en (bmsWIDEDFFCPE).</data>
+            <data message="4">Constant propagation done on N29 (bmsREDAND).</data>
         </row>
         <row>
-            <data message="4">Constant propagation done on u_uart/N90 (bmsREDOR).</data>
+            <data message="4">Constant propagation done on N31 (bmsREDAND).</data>
         </row>
         <row>
-            <data message="4">Constant propagation done on u_uart/N91 (bmsWIDEMUX).</data>
+            <data message="5">Removed bmsWIDEDFFCPE inst u_uart/data[7:0] at 4 that is stuck at constant 0.</data>
         </row>
         <row>
-            <data message="4">Constant propagation done on u_uart/N101 (bmsREDOR).</data>
+            <data message="5">Removed bmsWIDEDFFCPE inst u_uart/data[7:0] at 7 that is stuck at constant 0.</data>
         </row>
         <row>
-            <data message="4">Constant propagation done on u_uart/N104 (bmsWIDEINV).</data>
+            <data message="4">Constant propagation done on u_uart/data[7:0] (bmsWIDEDFFCPE).</data>
         </row>
         <row>
-            <data message="4">Constant propagation done on u_uart/N102 (bmsREDAND).</data>
+            <data message="5">Public-4008: Instance 'u_uart/data[4]' of 'bmsWIDEDFFCPE' unit is dangling and will be cleaned.</data>
         </row>
         <row>
-            <data message="4">Constant propagation done on u_uart/N103 (bmsREDAND).</data>
+            <data message="5">Public-4008: Instance 'u_uart/data[5]' of 'bmsWIDEDFFCPE' unit is dangling and will be cleaned.</data>
         </row>
         <row>
-            <data message="5">Public-4008: Instance 'u_ram/wb_ack' of 'bmsWIDEDFFCPE' unit is dangling and will be cleaned.</data>
+            <data message="5">Public-4008: Instance 'u_uart/data[7]' of 'bmsWIDEDFFCPE' unit is dangling and will be cleaned.</data>
         </row>
         <row>
-            <data message="5">Public-4008: Instance 'u_uart/wb_ack' of 'bmsWIDEDFFCPE' unit is dangling and will be cleaned.</data>
+            <data message="5">Public-4008: Instance 'u_uart/cnt[10]' of 'bmsWIDEDFFCPE' unit is dangling and will be cleaned.</data>
         </row>
         <row>
-            <data message="5">Public-4008: Instance 'u_cpu/state_0' of 'bmsWIDEDFFCPE' unit is dangling and will be cleaned.</data>
+            <data message="5">Public-4008: Instance 'u_uart/cnt[11]' of 'bmsWIDEDFFCPE' unit is dangling and will be cleaned.</data>
         </row>
         <row>
-            <data message="5">Public-4008: Instance 'u_cpu/wishbone_dat_w[31:0]' of 'bmsWIDEDFFCPE' unit is dangling and will be cleaned.</data>
+            <data message="5">Public-4008: Instance 'u_uart/cnt[12]' of 'bmsWIDEDFFCPE' unit is dangling and will be cleaned.</data>
         </row>
         <row>
-            <data message="5">Public-4008: Instance 'u_cpu/pc[31:0]' of 'bmsWIDEDFFCPE' unit is dangling and will be cleaned.</data>
+            <data message="5">Public-4008: Instance 'u_uart/cnt[13]' of 'bmsWIDEDFFCPE' unit is dangling and will be cleaned.</data>
         </row>
         <row>
-            <data message="5">Public-4008: Instance 'u_cpu/wishbone_adr[31:0]' of 'bmsWIDEDFFCPE' unit is dangling and will be cleaned.</data>
+            <data message="5">Public-4008: Instance 'u_uart/cnt[14]' of 'bmsWIDEDFFCPE' unit is dangling and will be cleaned.</data>
         </row>
         <row>
-            <data message="5">Public-4008: Instance 'u_cpu/wishbone_cyc' of 'bmsWIDEDFFCPE' unit is dangling and will be cleaned.</data>
+            <data message="5">Public-4008: Instance 'u_uart/cnt[15]' of 'bmsWIDEDFFCPE' unit is dangling and will be cleaned.</data>
         </row>
         <row>
-            <data message="4">Constant propagation done on u_uart/N23_eq0 (bmsREDXOR).</data>
+            <data message="5">Public-4008: Instance 'u_cpu/wishbone_dat_w[4]' of 'bmsWIDEDFFCPE' unit is dangling and will be cleaned.</data>
         </row>
         <row>
-            <data message="5">Unable to honor max fanout constraint for gtp_inv driven net rst_high</data>
+            <data message="5">Public-4008: Instance 'u_cpu/wishbone_dat_w[5]' of 'bmsWIDEDFFCPE' unit is dangling and will be cleaned.</data>
         </row>
         <row>
-            <data message="5">Unable to honor max fanout constraint for gtp_inv driven net rst_high</data>
+            <data message="5">Public-4008: Instance 'u_cpu/wishbone_dat_w[7]' of 'bmsWIDEDFFCPE' unit is dangling and will be cleaned.</data>
+        </row>
+        <row>
+            <data message="5">Public-4008: Instance 'u_cpu/wishbone_dat_w[8]' of 'bmsWIDEDFFCPE' unit is dangling and will be cleaned.</data>
+        </row>
+        <row>
+            <data message="5">Public-4008: Instance 'u_cpu/wishbone_dat_w[9]' of 'bmsWIDEDFFCPE' unit is dangling and will be cleaned.</data>
+        </row>
+        <row>
+            <data message="5">Public-4008: Instance 'u_cpu/wishbone_dat_w[10]' of 'bmsWIDEDFFCPE' unit is dangling and will be cleaned.</data>
+        </row>
+        <row>
+            <data message="5">Public-4008: Instance 'u_cpu/wishbone_dat_w[11]' of 'bmsWIDEDFFCPE' unit is dangling and will be cleaned.</data>
+        </row>
+        <row>
+            <data message="5">Public-4008: Instance 'u_cpu/wishbone_dat_w[12]' of 'bmsWIDEDFFCPE' unit is dangling and will be cleaned.</data>
+        </row>
+        <row>
+            <data message="5">Public-4008: Instance 'u_cpu/wishbone_dat_w[13]' of 'bmsWIDEDFFCPE' unit is dangling and will be cleaned.</data>
+        </row>
+        <row>
+            <data message="5">Public-4008: Instance 'u_cpu/wishbone_dat_w[14]' of 'bmsWIDEDFFCPE' unit is dangling and will be cleaned.</data>
+        </row>
+        <row>
+            <data message="5">Public-4008: Instance 'u_cpu/wishbone_dat_w[15]' of 'bmsWIDEDFFCPE' unit is dangling and will be cleaned.</data>
+        </row>
+        <row>
+            <data message="5">Public-4008: Instance 'u_cpu/wishbone_dat_w[16]' of 'bmsWIDEDFFCPE' unit is dangling and will be cleaned.</data>
+        </row>
+        <row>
+            <data message="5">Public-4008: Instance 'u_cpu/wishbone_dat_w[17]' of 'bmsWIDEDFFCPE' unit is dangling and will be cleaned.</data>
+        </row>
+        <row>
+            <data message="5">Public-4008: Instance 'u_cpu/wishbone_dat_w[18]' of 'bmsWIDEDFFCPE' unit is dangling and will be cleaned.</data>
+        </row>
+        <row>
+            <data message="5">Public-4008: Instance 'u_cpu/wishbone_dat_w[19]' of 'bmsWIDEDFFCPE' unit is dangling and will be cleaned.</data>
+        </row>
+        <row>
+            <data message="5">Public-4008: Instance 'u_cpu/wishbone_dat_w[20]' of 'bmsWIDEDFFCPE' unit is dangling and will be cleaned.</data>
+        </row>
+        <row>
+            <data message="5">Public-4008: Instance 'u_cpu/wishbone_dat_w[21]' of 'bmsWIDEDFFCPE' unit is dangling and will be cleaned.</data>
+        </row>
+        <row>
+            <data message="5">Public-4008: Instance 'u_cpu/wishbone_dat_w[22]' of 'bmsWIDEDFFCPE' unit is dangling and will be cleaned.</data>
+        </row>
+        <row>
+            <data message="5">Public-4008: Instance 'u_cpu/wishbone_dat_w[23]' of 'bmsWIDEDFFCPE' unit is dangling and will be cleaned.</data>
+        </row>
+        <row>
+            <data message="5">Public-4008: Instance 'u_cpu/wishbone_dat_w[24]' of 'bmsWIDEDFFCPE' unit is dangling and will be cleaned.</data>
+        </row>
+        <row>
+            <data message="5">Public-4008: Instance 'u_cpu/wishbone_dat_w[25]' of 'bmsWIDEDFFCPE' unit is dangling and will be cleaned.</data>
+        </row>
+        <row>
+            <data message="5">Public-4008: Instance 'u_cpu/wishbone_dat_w[26]' of 'bmsWIDEDFFCPE' unit is dangling and will be cleaned.</data>
+        </row>
+        <row>
+            <data message="5">Public-4008: Instance 'u_cpu/wishbone_dat_w[27]' of 'bmsWIDEDFFCPE' unit is dangling and will be cleaned.</data>
+        </row>
+        <row>
+            <data message="5">Public-4008: Instance 'u_cpu/wishbone_dat_w[28]' of 'bmsWIDEDFFCPE' unit is dangling and will be cleaned.</data>
+        </row>
+        <row>
+            <data message="5">Public-4008: Instance 'u_cpu/wishbone_dat_w[29]' of 'bmsWIDEDFFCPE' unit is dangling and will be cleaned.</data>
+        </row>
+        <row>
+            <data message="5">Public-4008: Instance 'u_cpu/wishbone_dat_w[30]' of 'bmsWIDEDFFCPE' unit is dangling and will be cleaned.</data>
+        </row>
+        <row>
+            <data message="5">Public-4008: Instance 'u_cpu/wishbone_dat_w[31]' of 'bmsWIDEDFFCPE' unit is dangling and will be cleaned.</data>
+        </row>
+        <row>
+            <data message="5">Public-4008: Instance 'u_cpu/wishbone_adr[0]' of 'bmsWIDEDFFCPE' unit is dangling and will be cleaned.</data>
+        </row>
+        <row>
+            <data message="5">Public-4008: Instance 'u_cpu/wishbone_adr[1]' of 'bmsWIDEDFFCPE' unit is dangling and will be cleaned.</data>
+        </row>
+        <row>
+            <data message="5">Public-4008: Instance 'u_cpu/wishbone_adr[2]' of 'bmsWIDEDFFCPE' unit is dangling and will be cleaned.</data>
+        </row>
+        <row>
+            <data message="5">Public-4008: Instance 'u_cpu/wishbone_adr[3]' of 'bmsWIDEDFFCPE' unit is dangling and will be cleaned.</data>
+        </row>
+        <row>
+            <data message="5">Public-4008: Instance 'u_cpu/wishbone_adr[4]' of 'bmsWIDEDFFCPE' unit is dangling and will be cleaned.</data>
+        </row>
+        <row>
+            <data message="5">Public-4008: Instance 'u_cpu/wishbone_adr[5]' of 'bmsWIDEDFFCPE' unit is dangling and will be cleaned.</data>
+        </row>
+        <row>
+            <data message="5">Public-4008: Instance 'u_cpu/wishbone_adr[6]' of 'bmsWIDEDFFCPE' unit is dangling and will be cleaned.</data>
+        </row>
+        <row>
+            <data message="5">Public-4008: Instance 'u_cpu/wishbone_adr[7]' of 'bmsWIDEDFFCPE' unit is dangling and will be cleaned.</data>
+        </row>
+        <row>
+            <data message="5">Public-4008: Instance 'u_cpu/wishbone_adr[8]' of 'bmsWIDEDFFCPE' unit is dangling and will be cleaned.</data>
+        </row>
+        <row>
+            <data message="5">Public-4008: Instance 'u_cpu/wishbone_adr[9]' of 'bmsWIDEDFFCPE' unit is dangling and will be cleaned.</data>
+        </row>
+        <row>
+            <data message="5">Public-4008: Instance 'u_cpu/wishbone_adr[10]' of 'bmsWIDEDFFCPE' unit is dangling and will be cleaned.</data>
+        </row>
+        <row>
+            <data message="5">Public-4008: Instance 'u_cpu/wishbone_adr[11]' of 'bmsWIDEDFFCPE' unit is dangling and will be cleaned.</data>
+        </row>
+        <row>
+            <data message="5">Public-4008: Instance 'u_cpu/wishbone_adr[12]' of 'bmsWIDEDFFCPE' unit is dangling and will be cleaned.</data>
+        </row>
+        <row>
+            <data message="5">Public-4008: Instance 'u_cpu/wishbone_adr[13]' of 'bmsWIDEDFFCPE' unit is dangling and will be cleaned.</data>
+        </row>
+        <row>
+            <data message="5">Public-4008: Instance 'u_cpu/wishbone_adr[14]' of 'bmsWIDEDFFCPE' unit is dangling and will be cleaned.</data>
+        </row>
+        <row>
+            <data message="5">Public-4008: Instance 'u_cpu/wishbone_adr[15]' of 'bmsWIDEDFFCPE' unit is dangling and will be cleaned.</data>
+        </row>
+        <row>
+            <data message="5">Public-4008: Instance 'u_cpu/wishbone_adr[16]' of 'bmsWIDEDFFCPE' unit is dangling and will be cleaned.</data>
+        </row>
+        <row>
+            <data message="5">Public-4008: Instance 'u_cpu/wishbone_adr[17]' of 'bmsWIDEDFFCPE' unit is dangling and will be cleaned.</data>
+        </row>
+        <row>
+            <data message="5">Public-4008: Instance 'u_cpu/wishbone_adr[18]' of 'bmsWIDEDFFCPE' unit is dangling and will be cleaned.</data>
+        </row>
+        <row>
+            <data message="5">Public-4008: Instance 'u_cpu/wishbone_adr[19]' of 'bmsWIDEDFFCPE' unit is dangling and will be cleaned.</data>
+        </row>
+        <row>
+            <data message="5">Public-4008: Instance 'u_cpu/wishbone_adr[20]' of 'bmsWIDEDFFCPE' unit is dangling and will be cleaned.</data>
+        </row>
+        <row>
+            <data message="5">Public-4008: Instance 'u_cpu/wishbone_adr[21]' of 'bmsWIDEDFFCPE' unit is dangling and will be cleaned.</data>
+        </row>
+        <row>
+            <data message="5">Public-4008: Instance 'u_cpu/wishbone_adr[22]' of 'bmsWIDEDFFCPE' unit is dangling and will be cleaned.</data>
+        </row>
+        <row>
+            <data message="5">Public-4008: Instance 'u_cpu/wishbone_adr[23]' of 'bmsWIDEDFFCPE' unit is dangling and will be cleaned.</data>
+        </row>
+        <row>
+            <data message="5">Public-4008: Instance 'u_cpu/wishbone_adr[24]' of 'bmsWIDEDFFCPE' unit is dangling and will be cleaned.</data>
+        </row>
+        <row>
+            <data message="5">Public-4008: Instance 'u_cpu/wishbone_adr[25]' of 'bmsWIDEDFFCPE' unit is dangling and will be cleaned.</data>
+        </row>
+        <row>
+            <data message="5">Public-4008: Instance 'u_cpu/wishbone_adr[26]' of 'bmsWIDEDFFCPE' unit is dangling and will be cleaned.</data>
+        </row>
+        <row>
+            <data message="5">Public-4008: Instance 'u_cpu/wishbone_adr[27]' of 'bmsWIDEDFFCPE' unit is dangling and will be cleaned.</data>
+        </row>
+        <row>
+            <data message="5">Public-4008: Instance 'u_cpu/wishbone_adr[29]' of 'bmsWIDEDFFCPE' unit is dangling and will be cleaned.</data>
+        </row>
+        <row>
+            <data message="5">Public-4008: Instance 'u_cpu/wishbone_adr[30]' of 'bmsWIDEDFFCPE' unit is dangling and will be cleaned.</data>
+        </row>
+        <row>
+            <data message="5">Public-4008: Instance 'u_cpu/wishbone_adr[31]' of 'bmsWIDEDFFCPE' unit is dangling and will be cleaned.</data>
+        </row>
+        <row>
+            <data message="5">Unable to honor max fanout constraint for gtp_inv driven net rst</data>
+        </row>
+        <row>
+            <data message="5">Unable to honor max fanout constraint for gtp_inv driven net rst</data>
         </row>
         <row>
             <data message="5">Timing-4087: Port 'led_test' is not constrained, it is treated as combinational output.</data>

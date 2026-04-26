@@ -5,7 +5,7 @@ Setup Summary(Slow Corner):
                                                                           TNS Failing      TNS Total
  Launch Clock           Capture Clock              WNS(ns)     TNS(ns)      Endpoints      Endpoints
 ----------------------------------------------------------------------------------------------------
- top|clk_50m            top|clk_50m                996.862       0.000              0             82
+ top|clk_50m            top|clk_50m                995.139       0.000              0            227
 ====================================================================================================
 
 Hold Summary(Slow Corner):
@@ -13,7 +13,7 @@ Hold Summary(Slow Corner):
                                                                           THS Failing      THS Total
  Launch Clock           Capture Clock              WHS(ns)     THS(ns)      Endpoints      Endpoints
 ----------------------------------------------------------------------------------------------------
- top|clk_50m            top|clk_50m                  0.341       0.000              0             82
+ top|clk_50m            top|clk_50m                  0.339       0.000              0            227
 ====================================================================================================
 
 Recovery Summary(Slow Corner):
@@ -42,7 +42,7 @@ Setup Summary(Fast Corner):
                                                                           TNS Failing      TNS Total
  Launch Clock           Capture Clock              WNS(ns)     TNS(ns)      Endpoints      Endpoints
 ----------------------------------------------------------------------------------------------------
- top|clk_50m            top|clk_50m                997.763       0.000              0             82
+ top|clk_50m            top|clk_50m                996.530       0.000              0            227
 ====================================================================================================
 
 Hold Summary(Fast Corner):
@@ -50,7 +50,7 @@ Hold Summary(Fast Corner):
                                                                           THS Failing      THS Total
  Launch Clock           Capture Clock              WHS(ns)     THS(ns)      Endpoints      Endpoints
 ----------------------------------------------------------------------------------------------------
- top|clk_50m            top|clk_50m                  0.265       0.000              0             82
+ top|clk_50m            top|clk_50m                  0.264       0.000              0            227
 ====================================================================================================
 
 Recovery Summary(Fast Corner):

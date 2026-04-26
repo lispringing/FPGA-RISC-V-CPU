@@ -6,19 +6,19 @@
             <data>File Type</data>
         </column_headers>
         <row>
-            <data>C:/Users/happuking/Desktop/FPGA-CPU/source/CPU.v</data>
+            <data>C:/Users/happuking/Desktop/FPGA-RISC-V-CPU/source/CPU.v</data>
             <data>Verilog</data>
         </row>
         <row>
-            <data>C:/Users/happuking/Desktop/FPGA-CPU/source/wb_ram.v</data>
+            <data>C:/Users/happuking/Desktop/FPGA-RISC-V-CPU/source/wb_ram.v</data>
             <data>Verilog</data>
         </row>
         <row>
-            <data>C:/Users/happuking/Desktop/FPGA-CPU/source/VexRiscv.v</data>
+            <data>C:/Users/happuking/Desktop/FPGA-RISC-V-CPU/source/VexRiscv.v</data>
             <data>Verilog</data>
         </row>
         <row>
-            <data>C:/Users/happuking/Desktop/FPGA-CPU/source/uart_wb.v</data>
+            <data>C:/Users/happuking/Desktop/FPGA-RISC-V-CPU/source/uart_wb.v</data>
             <data>Verilog</data>
         </row>
     </table>
@@ -35,8 +35,8 @@
         <row>
             <data>0h:0m:0s</data>
             <data>0h:0m:0s</data>
-            <data>0h:0m:3s</data>
-            <data>169</data>
+            <data>0h:0m:4s</data>
+            <data>173</data>
             <data>WINDOWS 10 x86_64</data>
             <data>AMD Ryzen 9 7940HX with Radeon Graphics</data>
             <data>15</data>
@@ -48,59 +48,62 @@
             <data message="4">Enable Verilog2k features and keywords</data>
         </row>
         <row>
-            <data message="4">Verilog-0001: Analyzing file C:/Users/happuking/Desktop/FPGA-CPU/source/CPU.v</data>
+            <data message="4">Verilog-0001: Analyzing file C:/Users/happuking/Desktop/FPGA-RISC-V-CPU/source/CPU.v</data>
         </row>
         <row>
-            <data message="4">Verilog-0002: [C:/Users/happuking/Desktop/FPGA-CPU/source/CPU.v(line number: 1)] Analyzing module top (library work)</data>
+            <data message="4">Verilog-0002: [C:/Users/happuking/Desktop/FPGA-RISC-V-CPU/source/CPU.v(line number: 1)] Analyzing module top (library work)</data>
         </row>
         <row>
-            <data message="4">Verilog-0001: Analyzing file C:/Users/happuking/Desktop/FPGA-CPU/source/wb_ram.v</data>
+            <data message="4">Verilog-0001: Analyzing file C:/Users/happuking/Desktop/FPGA-RISC-V-CPU/source/wb_ram.v</data>
         </row>
         <row>
-            <data message="4">Verilog-0002: [C:/Users/happuking/Desktop/FPGA-CPU/source/wb_ram.v(line number: 1)] Analyzing module wb_ram (library work)</data>
+            <data message="4">Verilog-0002: [C:/Users/happuking/Desktop/FPGA-RISC-V-CPU/source/wb_ram.v(line number: 1)] Analyzing module wb_ram (library work)</data>
         </row>
         <row>
-            <data message="4">Verilog-0001: Analyzing file C:/Users/happuking/Desktop/FPGA-CPU/source/VexRiscv.v</data>
+            <data message="5">Verilog-2010: [C:/Users/happuking/Desktop/FPGA-RISC-V-CPU/source/wb_ram.v(line number: 20)] Ignore initial statements except memory $readmemh/$readmemb initialization statements</data>
         </row>
         <row>
-            <data message="4">Verilog-0002: [C:/Users/happuking/Desktop/FPGA-CPU/source/VexRiscv.v(line number: 1)] Analyzing module VexRiscv (library work)</data>
+            <data message="4">Verilog-0001: Analyzing file C:/Users/happuking/Desktop/FPGA-RISC-V-CPU/source/VexRiscv.v</data>
         </row>
         <row>
-            <data message="5">Verilog-2010: [C:/Users/happuking/Desktop/FPGA-CPU/source/VexRiscv.v(line number: 57)] Ignore initial statements except memory $readmemh/$readmemb initialization statements</data>
+            <data message="4">Verilog-0002: [C:/Users/happuking/Desktop/FPGA-RISC-V-CPU/source/VexRiscv.v(line number: 1)] Analyzing module VexRiscv (library work)</data>
         </row>
         <row>
-            <data message="4">Verilog-0001: Analyzing file C:/Users/happuking/Desktop/FPGA-CPU/source/uart_wb.v</data>
+            <data message="4">Verilog-0001: Analyzing file C:/Users/happuking/Desktop/FPGA-RISC-V-CPU/source/uart_wb.v</data>
         </row>
         <row>
-            <data message="4">Verilog-0002: [C:/Users/happuking/Desktop/FPGA-CPU/source/uart_wb.v(line number: 1)] Analyzing module uart_wb (library work)</data>
+            <data message="4">Verilog-0002: [C:/Users/happuking/Desktop/FPGA-RISC-V-CPU/source/uart_wb.v(line number: 1)] Analyzing module uart_wb (library work)</data>
         </row>
         <row>
             <data message="4">Module &quot;top&quot; is set as top module.</data>
         </row>
         <row>
-            <data message="4">Verilog-0003: [C:/Users/happuking/Desktop/FPGA-CPU/source/CPU.v(line number: 1)] Elaborating module top</data>
+            <data message="4">Verilog-0003: [C:/Users/happuking/Desktop/FPGA-RISC-V-CPU/source/CPU.v(line number: 1)] Elaborating module top</data>
         </row>
         <row>
-            <data message="4">Verilog-0004: [C:/Users/happuking/Desktop/FPGA-CPU/source/CPU.v(line number: 48)] Elaborating instance u_cpu</data>
+            <data message="4">Verilog-0004: [C:/Users/happuking/Desktop/FPGA-RISC-V-CPU/source/CPU.v(line number: 41)] Elaborating instance u_cpu</data>
         </row>
         <row>
-            <data message="4">Verilog-0003: [C:/Users/happuking/Desktop/FPGA-CPU/source/VexRiscv.v(line number: 1)] Elaborating module VexRiscv</data>
+            <data message="4">Verilog-0003: [C:/Users/happuking/Desktop/FPGA-RISC-V-CPU/source/VexRiscv.v(line number: 1)] Elaborating module VexRiscv</data>
         </row>
         <row>
-            <data message="4">Verilog-0004: [C:/Users/happuking/Desktop/FPGA-CPU/source/CPU.v(line number: 62)] Elaborating instance u_ram</data>
+            <data message="4">Verilog-0004: [C:/Users/happuking/Desktop/FPGA-RISC-V-CPU/source/CPU.v(line number: 55)] Elaborating instance u_ram</data>
         </row>
         <row>
-            <data message="4">Verilog-0003: [C:/Users/happuking/Desktop/FPGA-CPU/source/wb_ram.v(line number: 1)] Elaborating module wb_ram</data>
+            <data message="4">Verilog-0003: [C:/Users/happuking/Desktop/FPGA-RISC-V-CPU/source/wb_ram.v(line number: 1)] Elaborating module wb_ram</data>
         </row>
         <row>
             <data message="4">Module instance {top.u_ram} parameter value:
     DEPTH = 32'b00000000000000000100000000000000</data>
         </row>
         <row>
-            <data message="4">Verilog-0004: [C:/Users/happuking/Desktop/FPGA-CPU/source/CPU.v(line number: 76)] Elaborating instance u_uart</data>
+            <data message="6">Verilog-3001: [C:/Users/happuking/Desktop/FPGA-RISC-V-CPU/source/wb_ram.v(line number: 22)] Cannot open specified data file &quot;main.hex&quot;</data>
         </row>
         <row>
-            <data message="4">Verilog-0003: [C:/Users/happuking/Desktop/FPGA-CPU/source/uart_wb.v(line number: 1)] Elaborating module uart_wb</data>
+            <data message="4">Verilog-0004: [C:/Users/happuking/Desktop/FPGA-RISC-V-CPU/source/CPU.v(line number: 71)] Elaborating instance u_uart</data>
+        </row>
+        <row>
+            <data message="4">Verilog-0003: [C:/Users/happuking/Desktop/FPGA-RISC-V-CPU/source/uart_wb.v(line number: 1)] Elaborating module uart_wb</data>
         </row>
         <row>
             <data message="4">Module instance {top.u_uart} parameter value:
@@ -111,16 +114,13 @@
             <data message="4">Removed inst wishbone_stb that is redundant to wishbone_cyc.</data>
         </row>
         <row>
-            <data message="4">Sdm-0001: [C:/Users/happuking/Desktop/FPGA-CPU/source/wb_ram.v(line number: 20)] Found Ram mem, depth=16384, width=32.</data>
+            <data message="4">Removed inst wishbone_we that is redundant to wishbone_cyc.</data>
         </row>
         <row>
-            <data message="4">FSM state_fsm[1:0] inferred.</data>
+            <data message="4">Sdm-0001: [C:/Users/happuking/Desktop/FPGA-RISC-V-CPU/source/wb_ram.v(line number: 25)] Found Ram mem, depth=16384, width=32.</data>
         </row>
         <row>
-            <data message="5">Loop was found during constant probe.</data>
-        </row>
-        <row>
-            <data message="5">Loop was found during constant probe.</data>
+            <data message="4">FSM state_fsm[3:0] inferred.</data>
         </row>
         <row>
             <data message="5">Loop was found during constant probe.</data>
@@ -132,10 +132,46 @@
             <data message="5">Loop was found during constant probe.</data>
         </row>
         <row>
-            <data message="4">Constant propagation done on N86 (bmsWIDEMUX).</data>
+            <data message="5">Loop was found during constant probe.</data>
         </row>
         <row>
-            <data message="4">Constant propagation done on N102 (bmsWIDEMUX).</data>
+            <data message="5">Loop was found during constant probe.</data>
+        </row>
+        <row>
+            <data message="4">Constant propagation done on N157 (bmsWIDEMUX).</data>
+        </row>
+        <row>
+            <data message="4">Constant propagation done on N119_1 (bmsWIDEMUX).</data>
+        </row>
+        <row>
+            <data message="4">Constant propagation done on N84 (bmsWIDEINV).</data>
+        </row>
+        <row>
+            <data message="4">Constant propagation done on N85 (bmsREDAND).</data>
+        </row>
+        <row>
+            <data message="4">Constant propagation done on N86 (bmsREDAND).</data>
+        </row>
+        <row>
+            <data message="4">Constant propagation done on N89 (bmsREDAND).</data>
+        </row>
+        <row>
+            <data message="4">Constant propagation done on N90 (bmsREDAND).</data>
+        </row>
+        <row>
+            <data message="4">Constant propagation done on N87 (bmsREDAND).</data>
+        </row>
+        <row>
+            <data message="4">Constant propagation done on N88 (bmsREDAND).</data>
+        </row>
+        <row>
+            <data message="5">Loop was found during constant probe.</data>
+        </row>
+        <row>
+            <data message="5">Loop was found during constant probe.</data>
+        </row>
+        <row>
+            <data message="4">Constant propagation done on N97 (bmsPMUX).</data>
         </row>
     </table>
     <general_container id="compile_settings">
@@ -174,7 +210,7 @@
                     <row>
                         <data>Include Path Order: 
  (Relative to Verilog File)</data>
-                        <data>C:/Users/happuking/Desktop/FPGA-CPU	</data>
+                        <data>C:/Users/happuking/Desktop/FPGA-RISC-V-CPU	</data>
                     </row>
                     <row>
                         <data>Parameters/Generics</data>

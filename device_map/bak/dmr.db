@@ -1484,7 +1484,7 @@
             <data>DIFFIO_B2_6P</data>
             <data></data>
             <data></data>
-            <data></data>
+            <data>YES</data>
         </row>
         <row>
             <data>W6</data>
@@ -2736,6 +2736,30 @@
             <data></data>
         </row>
         <row>
+            <data>uart_tx</data>
+            <data>output</data>
+            <data>R9</data>
+            <data>1.2</data>
+            <data>LVCMOS12</data>
+            <data>2</data>
+            <data>NONE</data>
+            <data>SLOW</data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+            <data></data>
+        </row>
+        <row>
             <data>clk_50m</data>
             <data>input</data>
             <data>P20</data>
@@ -2807,9 +2831,9 @@
             <data>Fanout</data>
         </column_headers>
         <row>
+            <data>rst</data>
             <data>N0</data>
-            <data>N0</data>
-            <data>25</data>
+            <data>124</data>
         </row>
     </table>
     <table id="device_map_high_fanout_singnal" title="High Fanout Signal" column_number="3">
@@ -2819,14 +2843,154 @@
             <data>Fanout</data>
         </column_headers>
         <row>
-            <data>N0</data>
-            <data>N0</data>
-            <data>25</data>
-        </row>
-        <row>
             <data>ntclkbufg_0</data>
             <data>clkbufg_0</data>
-            <data>25</data>
+            <data>124</data>
+        </row>
+        <row>
+            <data>rst</data>
+            <data>N0</data>
+            <data>124</data>
+        </row>
+        <row>
+            <data>u_cpu/state_1</data>
+            <data>u_cpu/state_1</data>
+            <data>66</data>
+        </row>
+        <row>
+            <data>u_uart/busy</data>
+            <data>u_uart/busy</data>
+            <data>14</data>
+        </row>
+        <row>
+            <data>u_uart/N96</data>
+            <data>u_uart/N96</data>
+            <data>10</data>
+        </row>
+        <row>
+            <data>u_cpu/N218 [2]</data>
+            <data>u_cpu/N114_32</data>
+            <data>10</data>
+        </row>
+        <row>
+            <data>wb_adr[28]</data>
+            <data>u_cpu/wishbone_adr[28]</data>
+            <data>9</data>
+        </row>
+        <row>
+            <data>u_uart/N89_inv</data>
+            <data>u_uart/N89</data>
+            <data>8</data>
+        </row>
+        <row>
+            <data>_N1086</data>
+            <data>N29_2</data>
+            <data>8</data>
+        </row>
+        <row>
+            <data>u_cpu/state_0</data>
+            <data>u_cpu/state_0</data>
+            <data>8</data>
+        </row>
+        <row>
+            <data>u_uart/N93</data>
+            <data>u_uart/N93</data>
+            <data>7</data>
+        </row>
+        <row>
+            <data>u_cpu/wishbone_dat_w_4</data>
+            <data>u_cpu/wishbone_dat_w_4</data>
+            <data>7</data>
+        </row>
+        <row>
+            <data>u_cpu/state_2</data>
+            <data>u_cpu/state_2</data>
+            <data>7</data>
+        </row>
+        <row>
+            <data>u_uart/bit_cnt [0]</data>
+            <data>u_uart/bit_cnt[0]</data>
+            <data>7</data>
+        </row>
+        <row>
+            <data>u_uart/bit_cnt [1]</data>
+            <data>u_uart/bit_cnt[1]</data>
+            <data>6</data>
+        </row>
+        <row>
+            <data>u_uart/_N20</data>
+            <data>u_uart/N17_mux8_3</data>
+            <data>6</data>
+        </row>
+        <row>
+            <data>u_uart/cnt [9]</data>
+            <data>u_uart/cnt[9]</data>
+            <data>6</data>
+        </row>
+        <row>
+            <data>u_cpu/state_1_inv</data>
+            <data>u_cpu/state_1_inv</data>
+            <data>6</data>
+        </row>
+        <row>
+            <data>ram_ack</data>
+            <data>u_ram/wb_ack</data>
+            <data>5</data>
+        </row>
+        <row>
+            <data>wb_stb</data>
+            <data>u_cpu/wishbone_cyc</data>
+            <data>5</data>
+        </row>
+        <row>
+            <data>uart_ack</data>
+            <data>u_uart/wb_ack</data>
+            <data>5</data>
+        </row>
+        <row>
+            <data>wb_ack</data>
+            <data>N11</data>
+            <data>5</data>
+        </row>
+        <row>
+            <data>u_uart/cnt [0]</data>
+            <data>u_uart/cnt[0]</data>
+            <data>4</data>
+        </row>
+        <row>
+            <data>u_uart/N109</data>
+            <data>u_uart/N109</data>
+            <data>4</data>
+        </row>
+        <row>
+            <data>u_uart/bit_cnt [3]</data>
+            <data>u_uart/bit_cnt[3]</data>
+            <data>4</data>
+        </row>
+        <row>
+            <data>u_uart/bit_cnt [2]</data>
+            <data>u_uart/bit_cnt[2]</data>
+            <data>4</data>
+        </row>
+        <row>
+            <data>u_cpu/timer [0]</data>
+            <data>u_cpu/timer[0]</data>
+            <data>4</data>
+        </row>
+        <row>
+            <data>u_cpu/wishbone_dat_w_0</data>
+            <data>u_cpu/wishbone_dat_w_0</data>
+            <data>4</data>
+        </row>
+        <row>
+            <data>u_cpu/timer [1]</data>
+            <data>u_cpu/timer[1]</data>
+            <data>3</data>
+        </row>
+        <row>
+            <data>u_cpu/N203</data>
+            <data>u_cpu/N203_3</data>
+            <data>3</data>
         </row>
         <row>
             <data>cnt[0]</data>
@@ -2834,13 +2998,268 @@
             <data>3</data>
         </row>
         <row>
-            <data>cnt[1]</data>
-            <data>cnt[1]</data>
+            <data>u_cpu/pc [2]</data>
+            <data>u_cpu/pc[2]</data>
+            <data>3</data>
+        </row>
+        <row>
+            <data>u_cpu/wishbone_dat_w_2</data>
+            <data>u_cpu/wishbone_dat_w_2</data>
+            <data>3</data>
+        </row>
+        <row>
+            <data>wb_we</data>
+            <data>u_cpu/wishbone_we</data>
+            <data>3</data>
+        </row>
+        <row>
+            <data>u_uart/cnt [1]</data>
+            <data>u_uart/cnt[1]</data>
+            <data>3</data>
+        </row>
+        <row>
+            <data>u_cpu/timer [9]</data>
+            <data>u_cpu/timer[9]</data>
+            <data>2</data>
+        </row>
+        <row>
+            <data>u_cpu/timer [10]</data>
+            <data>u_cpu/timer[10]</data>
+            <data>2</data>
+        </row>
+        <row>
+            <data>u_cpu/timer [11]</data>
+            <data>u_cpu/timer[11]</data>
+            <data>2</data>
+        </row>
+        <row>
+            <data>u_cpu/timer [12]</data>
+            <data>u_cpu/timer[12]</data>
+            <data>2</data>
+        </row>
+        <row>
+            <data>u_cpu/timer [13]</data>
+            <data>u_cpu/timer[13]</data>
+            <data>2</data>
+        </row>
+        <row>
+            <data>u_cpu/timer [14]</data>
+            <data>u_cpu/timer[14]</data>
+            <data>2</data>
+        </row>
+        <row>
+            <data>u_cpu/timer [15]</data>
+            <data>u_cpu/timer[15]</data>
+            <data>2</data>
+        </row>
+        <row>
+            <data>u_cpu/pc [3]</data>
+            <data>u_cpu/pc[3]</data>
+            <data>2</data>
+        </row>
+        <row>
+            <data>u_cpu/timer [17]</data>
+            <data>u_cpu/timer[17]</data>
+            <data>2</data>
+        </row>
+        <row>
+            <data>u_cpu/timer [18]</data>
+            <data>u_cpu/timer[18]</data>
+            <data>2</data>
+        </row>
+        <row>
+            <data>u_cpu/timer [19]</data>
+            <data>u_cpu/timer[19]</data>
+            <data>2</data>
+        </row>
+        <row>
+            <data>u_cpu/timer [20]</data>
+            <data>u_cpu/timer[20]</data>
+            <data>2</data>
+        </row>
+        <row>
+            <data>u_cpu/timer [8]</data>
+            <data>u_cpu/timer[8]</data>
+            <data>2</data>
+        </row>
+        <row>
+            <data>u_cpu/timer [22]</data>
+            <data>u_cpu/timer[22]</data>
+            <data>2</data>
+        </row>
+        <row>
+            <data>u_cpu/timer [23]</data>
+            <data>u_cpu/timer[23]</data>
+            <data>2</data>
+        </row>
+        <row>
+            <data>u_cpu/timer [24]</data>
+            <data>u_cpu/timer[24]</data>
+            <data>2</data>
+        </row>
+        <row>
+            <data>u_cpu/timer [25]</data>
+            <data>u_cpu/timer[25]</data>
+            <data>2</data>
+        </row>
+        <row>
+            <data>u_cpu/timer [26]</data>
+            <data>u_cpu/timer[26]</data>
+            <data>2</data>
+        </row>
+        <row>
+            <data>u_cpu/timer [27]</data>
+            <data>u_cpu/timer[27]</data>
+            <data>2</data>
+        </row>
+        <row>
+            <data>u_cpu/timer [28]</data>
+            <data>u_cpu/timer[28]</data>
+            <data>2</data>
+        </row>
+        <row>
+            <data>u_cpu/timer [29]</data>
+            <data>u_cpu/timer[29]</data>
+            <data>2</data>
+        </row>
+        <row>
+            <data>u_cpu/timer [30]</data>
+            <data>u_cpu/timer[30]</data>
+            <data>2</data>
+        </row>
+        <row>
+            <data>u_cpu/timer [31]</data>
+            <data>u_cpu/timer[31]</data>
+            <data>2</data>
+        </row>
+        <row>
+            <data>u_cpu/timer [7]</data>
+            <data>u_cpu/timer[7]</data>
+            <data>2</data>
+        </row>
+        <row>
+            <data>u_cpu/wishbone_dat_w_1</data>
+            <data>u_cpu/wishbone_dat_w_1</data>
+            <data>2</data>
+        </row>
+        <row>
+            <data>u_cpu/timer [6]</data>
+            <data>u_cpu/timer[6]</data>
+            <data>2</data>
+        </row>
+        <row>
+            <data>u_cpu/timer [5]</data>
+            <data>u_cpu/timer[5]</data>
             <data>2</data>
         </row>
         <row>
             <data>nt_led_test</data>
             <data>cnt[24]</data>
+            <data>2</data>
+        </row>
+        <row>
+            <data>wb_adr[29]</data>
+            <data>u_cpu/wishbone_adr[29]</data>
+            <data>2</data>
+        </row>
+        <row>
+            <data>cnt[1]</data>
+            <data>cnt[1]</data>
+            <data>2</data>
+        </row>
+        <row>
+            <data>u_cpu/timer [4]</data>
+            <data>u_cpu/timer[4]</data>
+            <data>2</data>
+        </row>
+        <row>
+            <data>u_cpu/timer [3]</data>
+            <data>u_cpu/timer[3]</data>
+            <data>2</data>
+        </row>
+        <row>
+            <data>u_cpu/timer [2]</data>
+            <data>u_cpu/timer[2]</data>
+            <data>2</data>
+        </row>
+        <row>
+            <data>wb_adr[31]</data>
+            <data>u_cpu/wishbone_adr[31]</data>
+            <data>2</data>
+        </row>
+        <row>
+            <data>u_cpu/pc [28]</data>
+            <data>u_cpu/pc[28]</data>
+            <data>2</data>
+        </row>
+        <row>
+            <data>u_cpu/pc [29]</data>
+            <data>u_cpu/pc[29]</data>
+            <data>2</data>
+        </row>
+        <row>
+            <data>u_cpu/pc [30]</data>
+            <data>u_cpu/pc[30]</data>
+            <data>2</data>
+        </row>
+        <row>
+            <data>u_cpu/timer [21]</data>
+            <data>u_cpu/timer[21]</data>
+            <data>2</data>
+        </row>
+        <row>
+            <data>u_cpu/pc [31]</data>
+            <data>u_cpu/pc[31]</data>
+            <data>2</data>
+        </row>
+        <row>
+            <data>u_uart/cnt [2]</data>
+            <data>u_uart/cnt[2]</data>
+            <data>2</data>
+        </row>
+        <row>
+            <data>u_uart/cnt [3]</data>
+            <data>u_uart/cnt[3]</data>
+            <data>2</data>
+        </row>
+        <row>
+            <data>u_uart/cnt [4]</data>
+            <data>u_uart/cnt[4]</data>
+            <data>2</data>
+        </row>
+        <row>
+            <data>u_uart/cnt [5]</data>
+            <data>u_uart/cnt[5]</data>
+            <data>2</data>
+        </row>
+        <row>
+            <data>u_uart/cnt [6]</data>
+            <data>u_uart/cnt[6]</data>
+            <data>2</data>
+        </row>
+        <row>
+            <data>u_uart/cnt [7]</data>
+            <data>u_uart/cnt[7]</data>
+            <data>2</data>
+        </row>
+        <row>
+            <data>u_uart/cnt [8]</data>
+            <data>u_uart/cnt[8]</data>
+            <data>2</data>
+        </row>
+        <row>
+            <data>wb_adr[30]</data>
+            <data>u_cpu/wishbone_adr[30]</data>
+            <data>2</data>
+        </row>
+        <row>
+            <data>u_uart/data [2]</data>
+            <data>u_uart/data[2]</data>
+            <data>2</data>
+        </row>
+        <row>
+            <data>u_cpu/timer [16]</data>
+            <data>u_cpu/timer[16]</data>
             <data>2</data>
         </row>
     </table>
@@ -2865,13 +3284,13 @@
         </row>
         <row>
             <data>FF</data>
-            <data>25</data>
+            <data>124</data>
             <data>64200</data>
             <data>1</data>
         </row>
         <row>
             <data>LUT</data>
-            <data>25</data>
+            <data>152</data>
             <data>42800</data>
             <data>1</data>
         </row>
@@ -2907,7 +3326,7 @@
         </row>
         <row>
             <data>IO</data>
-            <data>3</data>
+            <data>4</data>
             <data>296</data>
             <data>2</data>
         </row>
@@ -3022,10 +3441,19 @@
             <data message="4">The instance clkbufg_0(GTP_CLKBUFG) has been inserted on the net nt_clk_50m in design, driver pin O(instance clk_50m_ibuf) -&gt; load pin CLK(instance cnt[0]).</data>
         </row>
         <row>
-            <data message="4">Infer CARRY group, base inst: N3_0_1/gateop, insts:24.</data>
+            <data message="4">Infer CARRY group, base inst: N4_0_1/gateop, insts:24.</data>
         </row>
         <row>
-            <data message="5">Public-4010: Pcf file C:/Users/happuking/Desktop/FPGA-CPU/device_map/led_top.pcf has been covered.</data>
+            <data message="4">Infer CARRY group, base inst: u_cpu/N14_1_1/gateop, insts:29.</data>
+        </row>
+        <row>
+            <data message="4">Infer CARRY group, base inst: u_cpu/N16_1_1/gateop, insts:31.</data>
+        </row>
+        <row>
+            <data message="4">Infer CARRY group, base inst: u_uart/N132_1_1/gateop, insts:9.</data>
+        </row>
+        <row>
+            <data message="5">Public-4010: Pcf file C:/Users/happuking/Desktop/FPGA-RISC-V-CPU/device_map/led_top.pcf has been covered.</data>
         </row>
     </table>
     <general_container id="device_map_settings">
